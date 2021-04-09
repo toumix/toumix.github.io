@@ -2,6 +2,7 @@
 
 \moderncvstyle{casual}
 \moderncvcolor{red}
+
 \usepackage[scale=0.75]{geometry}
 \usepackage{enumitem}
 \setlist{nolistsep}
@@ -26,16 +27,36 @@
   {\endlist}
   {\item}
 
-\newcommand\Colorhref[3][orange]{\href{#2}{\small\color{#1}#3}}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\makecvhead} % <cmd>
+  {\ifthenelse{\isundefined{\@email}}{}{\makenewline\emailsymbol\emaillink\textcolor{grey}{\@email}}} % <search>
+  {\ifthenelse{\isundefined{\@email}}{}{\makenewline{\emailsymbol\textcolor{grey}\emaillink{\@email}}}%
+  } % <replace>
+  {}{} % <success><failure>
+\makeatother
 
 
 \name{\textbf{Alexis}}{\color{red}\textbf{TOUMI}}
-\phone[mobile]{+33752937799}
-\email{alexis@toumi.email}
-\homepage{alexis.toumi.xyz}
+
+\extrainfo{
+\hypersetup{urlcolor=gray}
+\mobilesymbol +33 7 52 93 77 99
+\hspace{25pt}
+\emailsymbol \href{mailto:alexis@toumi.email}{alexis@toumi.email}
+\hspace{25pt}
+\homepagesymbol \href{https://alexis.toumi.xyz}{alexis.toumi.xyz}}
+
+
+\AtBeginDocument{\hypersetup{
+    pdftitle={CV-Alexis-TOUMI},
+    colorlinks=true,
+    urlcolor=red,
+    linkcolor=gray,
+    citecolor=red,
+    pageanchor=false}}
 
 \begin{document}
-\hypersetup{pdftitle={CV-Alexis-TOUMI}}
 
 \makecvtitle
 
@@ -98,7 +119,7 @@ Probabilistic graphical models (HMM and CRF) applied to natural language process
 
 \section{SOFTWARE}
 
-I'm the developer of \href{https://github.com/oxford-quantum-group/discopy}{DisCoPy}
+I am the developer of \href{https://github.com/oxford-quantum-group/discopy}{DisCoPy}
 \cite{DeFeliceEtAl21}, the Python library for computing with monoidal categories.
 \vspace{8pt}
 
