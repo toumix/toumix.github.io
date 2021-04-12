@@ -3,7 +3,7 @@
 \moderncvstyle{casual}
 \moderncvcolor{red}
 
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.75, top=2cm, bottom=3cm]{geometry}
 \usepackage{enumitem}
 \setlist{nolistsep}
 \usepackage{ragged2e}
@@ -12,9 +12,9 @@
 
 \usepackage[style=numeric,giveninits,maxbibnames=99,sorting=ydnt]{biblatex}
 
-\addbibresource{CV.bib}
+\addbibresource{Alexis-TOUMI.bib}
 \defbibenvironment{bibliography}
-  {\vspace{8pt} \list
+  {\vspace{5pt} \list
      {\printtext[labelnumberwidth]{% label format from numeric.bbx
         \printfield{labelprefix}%
         \printfield{labelnumber}}}
@@ -60,69 +60,78 @@
 
 \makecvtitle
 
+\vspace{-20pt}
+
 \section{EDUCATION}
 
-\cventry{2018 -- 2022}{DPhil Computer Science}{University of Oxford}{}{}{Oxford--DeepMind Graduate \& Harrisson Scholarship for Quantum Foundations.\\
-\emph{Proposal:} \textbf{Quantum Structures for Linguistics, Cognition and Artifical Intelligence}, under the supervision of Prof.~Bob Coecke and Dr.~Dan Marsden. See \cite{MeichanetzidisEtAla, DeFeliceEtAl21a, DeFeliceEtAl21, DeFeliceEtAl19b}
+\cventry{2018 -- 2022}{DPhil Computer Science}{University of Oxford}{}{}{
+\emph{Thesis proposal:} \textbf{Quantum Structures for Linguistics, Cognition and Artifical Intelligence}, supervised by Prof.~Bob Coecke and Dr.~Dan Marsden, see \cite{MeichanetzidisEtAla, DeFeliceEtAl21a, DeFeliceEtAl21, DeFeliceEtAl19b}.\linebreak
 }
 
-\cventry{2016 -- 2018}{MSc Mathematics \& Foundations of Computer Science}{University of Oxford}{}{}{
-Categories, Proofs \& Processes (99), Quantum Computer Science (95), Categorical Quantum Mechanics (70), Distributional Models of Meaning (82), Computational Game Theory (98).\\
-\emph{Thesis:} \textbf{Categorical Compositional Distributional Questions, Answers \& Discourse}, supervised by Prof.~Bob Coecke. This followed the publications \cite{CoeckeEtAl18a} and \cite{CoeckeEtAl18}.
+\cventry{2016 -- 2018}{MSc Mathematics \& Computer Science}{University of Oxford}{}{Distinction}{
+\emph{Thesis:} \textbf{Categorical Compositional Distributional Questions, Answers \& Discourse Analysis}, supervised by Prof.~Bob Coecke. This followed the publications \cite{CoeckeEtAl18a} and \cite{CoeckeEtAl18}.\linebreak
 }
 
-\cventry{2012 -- 2015}{BSc Computer Science}{University of Oxford}{}{(First-Class Honours)}{
-Lambda Calculus, Computational Complexity, Learning Theory, Knowledge Representation.\\
-\emph{Thesis:} \textbf{Equilibrium Checking in Reactive Modules Games}, supervised by Prof.~Michael Wooldridge and Dr.~Julian Gutierrez. This was followed by two publications \cite{WooldridgeEtAl16} and \cite{ToumiEtAl15}.
+\cventry{2012 -- 2015}{BSc Computer Science}{University of Oxford}{}{First-Class Honours}{
+\emph{Thesis:} \textbf{Equilibrium Checking in Reactive Modules Games}, supervised by Prof.~Michael Wooldridge and Dr.~Julian Gutierrez. This was followed by two publications \cite{WooldridgeEtAl16} and \cite{ToumiEtAl15}.\linebreak
 }
 
-\vspace{8pt}
+\vspace{5pt}
+
+\section{AWARDS}
+
+\cventry{2018}{Oxford -- DeepMind Graduate Scholarship in Computer Science}{}{}{}{}
+\vspace{4pt}
+\cventry{2018}{Wolfson Harrison UK Research Council Quantum Foundation Scholarship}{}{}{}{}
+\vspace{4pt}
+\cventry{2013}{New College Academic Scholarship}{}{}{}{}
+\vspace{4pt}
+\vspace{5pt}
 
 \section{TEACHING}
 
 \cventry{2019}{Quantum Computer Science}{University of Oxford}{Class Tutor}{}{
 String diagrams for quantum processes,
-ZX-calculus, quantum foundations and algorithms.
-}
+ZX-calculus, quantum foundations and algorithms.\linebreak
+}\vspace{-4pt}
 \cventry{2019}{Logic \& Proof}{University of Oxford}{Class Tutor}{}{
-Propositional logic, SAT and constraint satisfaction, first-order logic and unification.
-}
+Propositional logic, SAT and constraint satisfaction, first-order logic and unification.\linebreak
+}\vspace{-4pt}
 \cventry{2018}{Computational Complexity}{University of Oxford}{Class Tutor}{}{
-Turing machines and reductions, randomisation, introduction to descriptive complexity.
-}
+Turing machines and reductions, randomisation, introduction to descriptive complexity.\linebreak
+}\vspace{-4pt}
 \cventry{2018}{Data Science with Python}{ESILV Paris}{Teaching Assistant}{}{
-Feature extraction from images, clustering, classification. Methodology for model evaluation.
-}
-\cventry{2012 --}{Elementary mathematics, physics and computer science}{}{Private Tutor}{}{}
+Feature extraction from images, clustering, classification. Methodology for model evaluation.\linebreak
+}\vspace{-4pt}
 
-\vspace{8pt}
+\vspace{5pt}
 
 \section{INDUSTRY}
 
 \cventry{2019 -- 2021}{Research Scientist -- Part Time}{
 Cambridge Quantum Computing}{Oxford}{}{
-Natural language processing on noisy intermediate-scale quantum (NISQ) hardware.
-}
-\cventry{2017 -- 2018}{Data Scientist}{Institut de Recherche et d'Histoire des Textes -- CNRS}{Paris}{}{Deep learning for the automated analysis of manuscripts from the Middle Ages, see \cite{BorosEtAl19}.
-}
+Natural language processing on noisy intermediate-scale quantum (NISQ) hardware, see \cite{MeichanetzidisEtAla}.\linebreak
+}\vspace{-4pt}
+\cventry{2017 -- 2018}{Data Scientist}{Institut de Recherche et d'Histoire des Textes -- CNRS}{Paris}{}{Deep learning for the automated analysis of manuscripts from the Middle Ages, see \cite{BorosEtAl19}.\linebreak
+}\vspace{-4pt}
 \cventry{2015 -- 2016}{Data Scientist -- R\&D Intern}{Tinyclues}{Paris}{}{
-Tensor factorisation on complex relational data: users, products, emails, clicks and sales.
-}
+Tensor factorisation on complex relational data: users, products, emails, clicks and sales.\linebreak
+}\vspace{-4pt}
 \cventry{2014 -- 2015}{Data Scientist -- Summer Intern}{Yonderlabs}{Berlin}{}{
-Probabilistic graphical models (HMM and CRF) applied to natural language processing.
+Probabilistic graphical models (HMM and CRF) applied to natural language processing.\linebreak
 }
-\vspace{8pt}
+\pagebreak
 
 \printbibliography[title=PUBLICATIONS]
 
 
-\vspace{8pt}
+\vspace{5pt}
 
 \section{SOFTWARE}
-
+\vspace{4pt}
 I am the developer of \href{https://github.com/oxford-quantum-group/discopy}{DisCoPy}
-\cite{DeFeliceEtAl21}, the Python library for computing with monoidal categories.
-\vspace{8pt}
+\cite{DeFeliceEtAl21}, the Python library for computing with monoidal categories.\linebreak
+\vspace{5pt}
 
 \section{LANGUAGES}
 \cvitem{Human}{Fluent in English and French. Basic German and beginner Arabic.}
