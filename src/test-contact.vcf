@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Alexis Toumi
+N:Toumi;Alexis;;;
+item1.EMAIL;TYPE=INTERNET:alexis@lelabquantique.com
+item1.X-ABLabel:
+item2.ORG:Le Lab Quantiquer
+item2.X-ABLabel:
+item3.TITLE:General Manager
+item3.X-ABLabel:
+CATEGORIES:myContacts
+END:VCARD
