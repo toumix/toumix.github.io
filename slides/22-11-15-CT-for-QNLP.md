@@ -6,8 +6,7 @@ backgroundColor: #000
 
 <style>
 * { text-align: left; color: white; }
-h1, strong { color: darkred; }
-a { color: orange; }
+h1, strong, a { color: orange; }
 img {
     display: block;
     margin-left: auto;
@@ -53,8 +52,8 @@ $$\quad$$
 
 ### Three steps
 
-1) **Parse** the given text to get a *string diagram*
-2) **Map** the grammar to a circuit using a *functor*
+1) **Parse** the given text to get a **string diagram**
+2) **Map** the grammar to a circuit using a **functor**
 3) **Tune** the parameters to solve a data-driven task
 
 ---
@@ -164,7 +163,7 @@ assert F(sentence)
 
 # QNLP models
 
-We define a QNLP model as a monoidal functor
+We define a QNLP model as a monoidal functor:
 
 $$
 F : \mathbf{Grammar} \to \mathbf{Circuit}
@@ -176,7 +175,7 @@ $$
 
 # QNLP models
 
-We define a QNLP model as a monoidal functor
+We define a QNLP model as a monoidal functor:
 
 $$
 F : \mathbf{Grammar} \to \mathbf{Circuit}
@@ -192,6 +191,25 @@ F_ = circuit.Functor(
 
 assert F_(sentence).eval() == F(sentence)
 ```
+
+---
+
+# QNLP models
+
+We define a QNLP model as a **parameterised** monoidal functor:
+
+$$
+\big\{ F_\theta : \mathbf{Grammar} \to \mathbf{Circuit} \big\}_{\theta \in \Theta}
+$$
+
+Given a dataset $X = \{ (f, y) \}$ with $f$ a sentence and $y$ its truth value, we want to find the optimal functor $F^\star = F_{\theta^\star}$:
+
+$$
+\theta^\star = \mathop{\text{argmin}}_{\theta \in \Theta} \sum_{(f, y) \in X}
+\text{loss}(F_\theta(f), y)
+$$
+
+We call this **functorial learning**, a new category-theoretic approach to structured machine learning.
 
 ---
 
