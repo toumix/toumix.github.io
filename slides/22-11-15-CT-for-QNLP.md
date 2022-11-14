@@ -23,7 +23,7 @@ $$\quad$$
 
 Alexis TOUMI
 
-15 Novembre 2022, Paris
+JIQ'22, Paris
 
 ---
 
@@ -36,7 +36,7 @@ $$\quad$$
 
 Alexis TOUMI
 
-15 Novembre 2022, Paris
+JIQ'22, Paris
 
 ---
 
@@ -215,7 +215,7 @@ We call this **functorial learning**, a new category-theoretic approach to struc
 
 # Diagrammatic Differentiation for Quantum Machine Learning
 
-joint work with **Giovanni de Felice** and **Richie Yeung**
+joint work with **Richie Yeung** and **Giovanni de Felice**
 
 ![height:400px](https://discopy.readthedocs.io/en/main/_images/notebooks_diag-diff_11_0.png)
 
