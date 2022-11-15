@@ -229,7 +229,8 @@ joint work with **Richie Yeung** and **Giovanni de Felice**
 
 # Check it out!
 
-![width:800px](https://raw.githubusercontent.com/oxford-quantum-group/discopy/main/docs/_static/imgs/snake-equation.png)
+![bg](https://alexis.toumi.xyz/src/qr-code-discopy-org.png)
+![bg](https://raw.githubusercontent.com/oxford-quantum-group/discopy/main/docs/_static/imgs/snake-equation.png)
 
 - **https://github.com/discopy/discopy**
 - **https://discopy.readthedocs.io**
