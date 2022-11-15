@@ -6,7 +6,7 @@ backgroundColor: #000
 
 <style>
 * { text-align: left; color: white; }
-h1, strong, a { color: orange; }
+h1, strong, a { color: orange; font-weight: bold; text-decoration: none; }
 img {
     display: block;
     margin-left: auto;
@@ -87,7 +87,7 @@ String diagrams can be defined by recursion:
 
 ---
 
-# Cooking recipes are string diagrams!
+# So what is a string diagram?
 
 <style scoped> img { float: left; margin-right: 50px; }</style>
 
@@ -97,6 +97,7 @@ String diagrams can be defined by recursion:
 * Selinger, [Survey of graphical languages for monoidal categories](https://arxiv.org/abs/0908.3347) (2010)
 * Joyal & Street, [Planar diagrams and tensor algebra](http://www.math.mq.edu.au/~street/PlanarDiags.pdf) (1988)
 * [The geometry of tensor calculus](https://core.ac.uk/download/pdf/82659437.pdf) (1991)
+* Delpeuch & Vicary, [Normal forms for planar string diagrams](https://lmcs.episciences.org/8960/pdf) (2018)
 
 ---
 
@@ -106,8 +107,10 @@ String diagrams can be defined by recursion:
 
 Abramsky & Coecke
 
-- **A categorical semantics of quantum protocols** ([arXiv:0402130](https://arxiv.org/abs/quant-ph/0402130))
-- **Categorical quantum mechanics** ([arXiv:0808.1023](https://arxiv.org/abs/0808.1023))
+- [Physical traces: quantum vs. classical information](https://sciencedirect.com/science/article/pii/S1571066104805565/pdf) (2003)
+- [A categorical semantics of quantum protocols](https://arxiv.org/abs/quant-ph/0402130) (2004)
+- [Categorical quantum mechanics](https://arxiv.org/abs/0808.1023) (2008)
+
 ---
 
 # This sentence is a string diagram
@@ -125,7 +128,7 @@ Abramsky & Coecke
 - Joachim Lambek, **The mathematics of sentence structure** (1958)
 
 * Joachim Lambek, **Type grammar revisited** (1997)
-* Coecke et al., **DisCoCat framework** (2008)
+* Coecke et al., [DisCoCat framework](https://arxiv.org/abs/1003.4394) (2008, 2010)
 
 ---
 
