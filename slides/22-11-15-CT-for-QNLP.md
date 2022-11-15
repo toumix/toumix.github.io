@@ -42,7 +42,9 @@ JIQ'22, Paris
 
 # QNLP: the meme
 
-![bg fit](https://alexis.toumi.xyz/memes/they-re-the-same-picture.jpg)
+![height:500px](https://alexis.toumi.xyz/memes/they-re-the-same-picture.jpg)
+
+---
 
 # QNLP: the recipe
 
