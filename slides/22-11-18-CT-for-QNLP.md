@@ -23,7 +23,7 @@ $$\quad$$
 
 Alexis TOUMI
 
-JIQ'22, Paris
+CIRM, Marseille
 
 ---
 
@@ -36,42 +36,38 @@ $$\quad$$
 
 Alexis TOUMI
 
-JIQ'22, Paris
-
----
-
-# QNLP: the meme
-
-![height:500px](https://alexis.toumi.xyz/memes/they-re-the-same-picture.jpg)
+CIRM, Marseille
 
 ---
 
 # QNLP: the recipe
 
-### Tree ingredients
+![bg right:42%](../memes/they-re-the-same-picture.jpg)
 
-$\text{Natural Language}
+### Three ingredients
+
+$\text{Grammar}
 \xrightarrow{\text{Category Theory}}
-\text{Quantum Computing}$
+\text{Quantum}$
 
 $$\quad$$
 
 ### Three steps
 
-1) **Parse** the given text to get a **string diagram**
-2) **Map** the grammar to a circuit using a **functor**
-3) **Tune** the parameters to solve a data-driven task
+1) **Parse** text to get a **string diagram**
+2) **Map** it to a circuit with a **functor**
+3) **Tune** parameters to solve NLP tasks (e.g. question answering)
 
 ---
 
 # You already use string diagrams without knowing it
 
 * Quantum circuits (see **ZX-calculus**)
-* Tensor networks
+* Tensor networks (see **Penrose notation**)
 * Neural networks
+* Bayesian networks
 * Concurrent processes
-* Electrical circuits
-* Logical formulae (see **existential graphs**)
+* Logical formulae (see C.S. Peirce's **existential graphs**)
 * The grammar of this sentence is a string diagram!
 
 ---
@@ -93,10 +89,25 @@ String diagrams can be defined by recursion:
 
 # Cooking recipes are string diagrams!
 
-![height:400px](https://raw.githubusercontent.com/oxford-quantum-group/discopy/main/docs/_static/imgs/crack-eggs.png)
+<style scoped> img { float: left; margin-right: 50px; }</style>
 
-* Pawel Sobocinski's **Graphical Linear Algebra**, i.e. linear algebra with all string diagrams and no vectors!
+![height:500px](https://raw.githubusercontent.com/oxford-quantum-group/discopy/main/docs/_static/imgs/crack-eggs.png)
 
+* Sobocinski, [Graphical Linear Algebra](https://graphicallinearalgebra.net/), i.e. all string diagrams and no vectors!
+* Selinger, [Survey of graphical languages for monoidal categories](https://arxiv.org/abs/0908.3347) (2010)
+* Joyal & Street, [Planar diagrams and tensor algebra](http://www.math.mq.edu.au/~street/PlanarDiags.pdf) (1988)
+* [The geometry of tensor calculus](https://core.ac.uk/download/pdf/82659437.pdf) (1991)
+
+---
+
+# Quantum processes as string diagrams
+
+![](https://upload.wikimedia.org/wikipedia/commons/e/e8/Teleport.png)
+
+Abramsky & Coecke
+
+- **A categorical semantics of quantum protocols** ([arXiv:0402130](https://arxiv.org/abs/quant-ph/0402130))
+- **Categorical quantum mechanics** ([arXiv:0808.1023](https://arxiv.org/abs/0808.1023))
 ---
 
 # This sentence is a string diagram
@@ -109,11 +120,12 @@ String diagrams can be defined by recursion:
 
 # This sentence is a string diagram
 
-![height:350px](https://cqc.pythonanywhere.com/discocat/png?sentence=This%20sentence%20is%20a%20string%20diagram&size=small)
+![height:300px](https://cqc.pythonanywhere.com/discocat/png?sentence=This%20sentence%20is%20a%20string%20diagram&size=small)
 
 - Joachim Lambek, **The mathematics of sentence structure** (1958)
 
 * Joachim Lambek, **Type grammar revisited** (1997)
+* Coecke et al., **DisCoCat framework** (2008)
 
 ---
 
@@ -223,14 +235,16 @@ We call this **functorial learning**, a new category-theoretic approach to struc
 
 joint work with **Richie Yeung** and **Giovanni de Felice**
 
-![height:400px](https://discopy.readthedocs.io/en/main/_images/notebooks_diag-diff_11_0.png)
+![height:350px](https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Penrose_covariant_derivate.svg/1920px-Penrose_covariant_derivate.svg.png)
 
 ---
 
 # Check it out!
 
-![](https://raw.githubusercontent.com/oxford-quantum-group/discopy/main/docs/_static/imgs/snake-equation.png)
+<style scoped> p { text-align: center; }</style>
 
-- **https://github.com/discopy/discopy**
-- **https://discopy.readthedocs.io**
-- **https://discopy.org**
+![height:350px](https://raw.githubusercontent.com/oxford-quantum-group/discopy/main/docs/_static/imgs/snake-equation.png)
+
+`pip install discopy`
+
+https://discopy.org
