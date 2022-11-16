@@ -4,6 +4,8 @@ permalink: /jobs/22-11-16-qnlp-summarisation
 
 # Internship: Text Summarisation with Quantum Natural Language Processing
 
+---
+
 ## Context
 
 [Quantum natural language processing](https://en.wikipedia.org/wiki/Quantum_natural_language_processing) (QNLP) is the use of quantum computing to solve NLP tasks faster than any classical computer. In a recent approach[^Coe20], text is represented as parameterised circuits that are optimised using a hybrid classical-quantum algorithm. This approach was implemented on noisy intermediate-scale quantum (NISQ) hardware, with promising experimental results on text classification and question answering.

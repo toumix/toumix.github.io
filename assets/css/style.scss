@@ -14,7 +14,18 @@ body, h2 {
     background: none;
 }
 
-header h1, a {
+header, #downloads, #downloads+hr {
+    display: none;
+}
+
+.maintitle {
+    font-size: xx-large;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+h1, a, strong {
     font-family: sans-serif;
     color: orange;
 }
@@ -48,8 +59,4 @@ ul.social {
 .social img {
     width: 42px;
     height: 42px;
-}
-
-#downloads {
-    display: none;
 }

@@ -3,6 +3,11 @@ layout: default
 title: Alexis TOUMI
 ---
 
+{:.maintitle}
+# Alexis TOUMI
+
+---
+
 I'm a post-doctoral researcher at [LIS, Marseille](https://www.lis-lab.fr/) where I work with [Giuseppe di Molfetta](https://www.giuseppe-dimolfetta.com/) and [Pierre Clairambault](https://pageperso.lis-lab.fr/pierre.clairambault/).
 I did my PhD in the [Oxford Quantum Group](http://www.cs.ox.ac.uk/activities/quantum/), supervised by [Bob Coecke](https://en.wikipedia.org/wiki/Bob_Coecke) and [Dan Marsden](https://stringdiagram.com/).
 I'm also part-time research scientist at [Cambridge Quantum](https://cambridgequantum.com).
