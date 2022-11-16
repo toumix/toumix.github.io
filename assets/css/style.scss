@@ -11,6 +11,10 @@
     font-size: 100%;
 }
 
+h2 {
+    font-size: large;
+}
+
 header h1, h1, h3, a, footer a {
     font-family: sans-serif;
     color: orange;
@@ -23,6 +27,11 @@ footer {
 
 footer a:hover {
     color:#c5000c
+}
+
+h2 a {
+    display: block;
+    float: right;
 }
 
 hr {
@@ -45,7 +54,8 @@ ul, ol {
 ul.social {
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 42px;
+    padding-top: 21px;
+    padding-bottom: 21px;
 }
 
 .social li {
