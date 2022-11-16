@@ -1,7 +1,5 @@
 ---
 layout: default
-title: Alexis TOUMI
-description: personal website
 ---
 
 I'm a post-doctoral researcher at [LIS, Marseille](https://www.lis-lab.fr/) where I work with [Giuseppe di Molfetta](https://www.giuseppe-dimolfetta.com/) and [Pierre Clairambault](https://pageperso.lis-lab.fr/pierre.clairambault/).
