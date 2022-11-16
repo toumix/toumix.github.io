@@ -1,0 +1,55 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body, h2 {
+    background: none;
+    background-color: black;
+    text-shadow: none;
+    color: white;
+}
+
+#container {
+    background: none;
+}
+
+header h1, a {
+    font-family: sans-serif;
+    color: orange;
+}
+
+hr {
+    background-color: orange;
+    height: 1px;
+    padding-bottom: 0;
+}
+
+ul {
+    margin-left: 42px;
+}
+
+footer {
+    display: none;
+}
+
+ul.social {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social li {
+    list-style: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    float: left;
+}
+
+.social img {
+    width: 42px;
+    height: 42px;
+}
+
+#downloads {
+    display: none;
+}
