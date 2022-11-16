@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /jobs/22-11-16-qnlp-summarisation
 ---
 
