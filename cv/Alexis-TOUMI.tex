@@ -1,7 +1,7 @@
 \documentclass[11pt,a4paper,sans]{moderncv}
 
 \moderncvstyle{casual}
-\moderncvcolor{red}
+\moderncvcolor{orange}
 
 \usepackage[scale=0.75, top=2cm, bottom=3cm]{geometry}
 \usepackage{enumitem}
@@ -37,7 +37,7 @@
 \makeatother
 
 
-\name{\textbf{Alexis}}{\color{red}\textbf{TOUMI}}
+\name{\textbf{Alexis}}{\color{orange}\textbf{TOUMI}}
 
 \extrainfo{
 \hypersetup{urlcolor=gray}
@@ -51,9 +51,9 @@
 \AtBeginDocument{\hypersetup{
     pdftitle={CV-Alexis-TOUMI},
     colorlinks=true,
-    urlcolor=red,
+    urlcolor=orange,
     linkcolor=gray,
-    citecolor=red,
+    citecolor=orange,
     pageanchor=false}}
 
 \begin{document}
@@ -64,25 +64,26 @@
 
 \section{\textbf{EDUCATION}}
 
-\cventry{2018 -- 2022}{DPhil Computer Science}{University of Oxford}{}{}{
+\cventry{2018 -- 2022}{D.Phil. Computer Science}{University of Oxford}{}{}{
 \emph{Thesis:} \textbf{Category Theory for Quantum Natural Language Processing},\linebreak supervised by Prof.~Bob Coecke and Dr.~Dan Marsden, see \cite{
 QNLP-Eduardo,
+ToumiEtAl22,
 language-games,
 DisCoPy,
+McPheatEtAl21,
 ToumiEtAl21,
 CoeckeEtAl20,
 functorial-question,
 MeichanetzidisEtAl20a,
 MeichanetzidisEtAl20,
-ShieblerEtAl20,
-McPheatEtAl21}.\linebreak
+ShieblerEtAl20}.\linebreak
 }
 
-\cventry{2016 -- 2018}{MSc Mathematics \& Computer Science}{University of Oxford}{}{Distinction}{
+\cventry{2016 -- 2018}{M.Sc. Mathematics \& Computer Science}{University of Oxford}{}{Distinction}{
 \emph{Thesis:} \textbf{Categorical Compositional Distributional Questions, Answers \& Discourse Analysis}, supervised by Prof.~Bob Coecke. This followed the publications \cite{CoeckeEtAl18a} and \cite{CoeckeEtAl18}.\linebreak
 }
 
-\cventry{2012 -- 2015}{BSc Computer Science}{University of Oxford}{}{First-Class Honours}{
+\cventry{2012 -- 2015}{B.Sc. Computer Science}{University of Oxford}{}{First-Class Honours}{
 \emph{Thesis:} \textbf{Equilibrium Checking in Reactive Modules Games}, supervised by Prof.~Michael Wooldridge and Dr.~Julian Gutierrez. This was followed by two publications \cite{WooldridgeEtAl16} and \cite{ToumiEtAl15}.\linebreak
 }
 
@@ -113,9 +114,14 @@ Feature extraction from images, clustering, classification. Methodology for mode
 }\vspace{-4pt}
 
 
-\section{\textbf{INDUSTRY}}
+\section{\textbf{WORK EXPERIENCE}}
 
-\cventry{2022 -- }{General Manager}
+\cventry{Oct 2022 --}{Post-doctoral researcher}
+{Laboratoire d'Informatique \& Syst\`emes}{Marseille}{}{
+Formal methods for quantum cellular automata and distributed quantum computing.
+\linebreak
+}\vspace{-4pt}
+\cventry{May--Jul 2022}{General Manager}
 {Le Lab Quantique}{Paris}{}{
 Administration of a French nonprofit that promotes the emergence of quantum technologies.
 \linebreak
@@ -135,7 +141,6 @@ Tensor factorisation on complex relational data: users, products, emails, clicks
 \cventry{2014 -- 2015}{Data Scientist}{Yonderlabs}{Berlin}{Internship}{
 Probabilistic graphical models (HMM and CRF) applied to natural language processing.\linebreak
 }
-\pagebreak
 
 \printbibliography[title=\textbf{PUBLICATIONS}]
 
@@ -148,7 +153,5 @@ Advanced Python. Working knowledge of Haskell, Scala, C, SQL.\linebreak
 I am the developer of \href{https://github.com/oxford-quantum-group/discopy}{DisCoPy}
 \cite{DisCoPy,ToumiEtAl22}, the Python library for monoidal categories.\linebreak
 }
-
-
 
 \end{document}

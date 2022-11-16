@@ -48,28 +48,74 @@
       \strng{authorbibnamehash}{ca601ccee1e10319c0854b8705afbeb4}
       \strng{authornamehash}{7c7f34b128c8abc3346fc67b0d439586}
       \strng{authorfullhash}{ca601ccee1e10319c0854b8705afbeb4}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{eprinttype}{arxiv}
       \field{journaltitle}{Quantum Computing in the Arts and Humanities}
       \field{title}{How to Make Qubits Speak}
-      \field{year}{invited contribution, to appear}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{eprint}
+      \verb 2107.06776
+      \endverb
     \endentry
-    \entry{language-games}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=9caaa3065f19307a0a1fa2f3f0c21da6}{%
-           family={{de Felice}},
-           familyi={d\bibinitperiod},
+    \entry{ToumiEtAl22}{article}{useprefix=true}
+      \name{author}{3}{}{%
+        {{hash=8167013bfe97089a16ad5e2a07aaa54f}{%
+           family={Toumi},
+           familyi={T\bibinitperiod},
+           given={Alexis},
+           giveni={A\bibinitperiod}}}%
+        {{hash=90a608e5aa8c815f07e4c59d5b93be62}{%
+           family={Felice},
+           familyi={F\bibinitperiod},
            given={Giovanni},
-           giveni={G\bibinitperiod}}}%
+           giveni={G\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=6ff31e2c04cc4d25667ca8bfbbf58546}{%
+           family={Yeung},
+           familyi={Y\bibinitperiod},
+           given={Richie},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{0fd293d3fdb828b556a0aa6f74567a37}
+      \strng{fullhash}{0fd293d3fdb828b556a0aa6f74567a37}
+      \strng{bibnamehash}{0fd293d3fdb828b556a0aa6f74567a37}
+      \strng{authorbibnamehash}{0fd293d3fdb828b556a0aa6f74567a37}
+      \strng{authornamehash}{0fd293d3fdb828b556a0aa6f74567a37}
+      \strng{authorfullhash}{0fd293d3fdb828b556a0aa6f74567a37}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{Quantum Physics and Logic (QPL)}
+      \field{title}{{{DisCoPy}} for the Quantum Computer Scientist}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{eprint}
+      \verb 2205.05190
+      \endverb
+    \endentry
+    \entry{language-games}{inproceedings}{useprefix=true}
+      \name{author}{4}{}{%
+        {{hash=90a608e5aa8c815f07e4c59d5b93be62}{%
+           family={Felice},
+           familyi={F\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
         {{hash=9914e83948af104e1f8d643cf01cb2e7}{%
            family={Di\bibnamedelima Lavore},
            familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod},
            given={Elena},
            giveni={E\bibinitperiod}}}%
-        {{hash=24f211a5c110ce735afc66ac5c764aad}{%
-           family={Rom{á}n},
+        {{hash=d4f092c73ead809932c43d0668067f0a}{%
+           family={Román},
            familyi={R\bibinitperiod},
            given={Mario},
            giveni={M\bibinitperiod}}}%
@@ -79,15 +125,12 @@
            given={Alexis},
            giveni={A\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {EPTCS}%
-      }
-      \strng{namehash}{ef437e25c22d94263f76f2c9cb72b3ed}
-      \strng{fullhash}{615644d7c257cb0a19cda954f7279524}
-      \strng{bibnamehash}{615644d7c257cb0a19cda954f7279524}
-      \strng{authorbibnamehash}{615644d7c257cb0a19cda954f7279524}
-      \strng{authornamehash}{ef437e25c22d94263f76f2c9cb72b3ed}
-      \strng{authorfullhash}{615644d7c257cb0a19cda954f7279524}
+      \strng{namehash}{200dc672ec25c68705d8d6cacc572463}
+      \strng{fullhash}{3b9a307ddbd33d925b085ae22172eaf4}
+      \strng{bibnamehash}{3b9a307ddbd33d925b085ae22172eaf4}
+      \strng{authorbibnamehash}{3b9a307ddbd33d925b085ae22172eaf4}
+      \strng{authornamehash}{200dc672ec25c68705d8d6cacc572463}
+      \strng{authorfullhash}{3b9a307ddbd33d925b085ae22172eaf4}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
@@ -96,21 +139,21 @@
       \field{booktitle}{Proceedings {{ACT}} 2020}
       \field{title}{Functorial {{Language Games}} for {{Question Answering}}}
       \field{year}{2021}
+      \field{dateera}{ce}
       \verb{doi}
       \verb 10.4204/EPTCS.333.21
       \endverb
-      \verb{file}
-      \verb /Users/alexis.toumi/WORK/Zotero/storage/47WTHBKN/de Felice et al. - 2021 - Functorial Language Games for Question Answering.pdf;/Users/alexis.toumi/WORK/Zotero/storage/C6WQC5FQ/2005.html
-      \endverb
       \keyw{Computer Science - Computation and Language,Computer Science - Computer Science and Game Theory}
     \endentry
-    \entry{DisCoPy}{inproceedings}{}
+    \entry{DisCoPy}{inproceedings}{useprefix=true}
       \name{author}{3}{}{%
-        {{hash=9caaa3065f19307a0a1fa2f3f0c21da6}{%
-           family={{de Felice}},
-           familyi={d\bibinitperiod},
+        {{hash=90a608e5aa8c815f07e4c59d5b93be62}{%
+           family={Felice},
+           familyi={F\bibinitperiod},
            given={Giovanni},
-           giveni={G\bibinitperiod}}}%
+           giveni={G\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
         {{hash=8167013bfe97089a16ad5e2a07aaa54f}{%
            family={Toumi},
            familyi={T\bibinitperiod},
@@ -125,12 +168,12 @@
       \list{publisher}{1}{%
         {EPTCS}%
       }
-      \strng{namehash}{e80f525f901924fde11f84a14b84d589}
-      \strng{fullhash}{e80f525f901924fde11f84a14b84d589}
-      \strng{bibnamehash}{e80f525f901924fde11f84a14b84d589}
-      \strng{authorbibnamehash}{e80f525f901924fde11f84a14b84d589}
-      \strng{authornamehash}{e80f525f901924fde11f84a14b84d589}
-      \strng{authorfullhash}{e80f525f901924fde11f84a14b84d589}
+      \strng{namehash}{247881080c07370327c9b1581b795f75}
+      \strng{fullhash}{247881080c07370327c9b1581b795f75}
+      \strng{bibnamehash}{247881080c07370327c9b1581b795f75}
+      \strng{authorbibnamehash}{247881080c07370327c9b1581b795f75}
+      \strng{authornamehash}{247881080c07370327c9b1581b795f75}
+      \strng{authorfullhash}{247881080c07370327c9b1581b795f75}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
@@ -140,15 +183,66 @@
       \field{shorttitle}{{{DisCoPy}}}
       \field{title}{{{DisCoPy}}: {{Monoidal Categories}} in {{Python}}}
       \field{year}{2021}
+      \field{dateera}{ce}
       \verb{doi}
       \verb 10.4204/EPTCS.333.13
       \endverb
-      \verb{file}
-      \verb /Users/alexis.toumi/WORK/Zotero/storage/ZFD7K224/de Felice et al. - 2021 - DisCoPy Monoidal Categories in Python.pdf;/Users/alexis.toumi/WORK/Zotero/storage/AR69DYVP/2005.html
-      \endverb
       \keyw{Mathematics - Category Theory}
     \endentry
-    \entry{ToumiEtAl21}{article}{}
+    \entry{McPheatEtAl21}{article}{}
+      \name{author}{5}{}{%
+        {{hash=12191e42937ebce299fb309e32c524c3}{%
+           family={McPheat},
+           familyi={M\bibinitperiod},
+           given={Lachlan},
+           giveni={L\bibinitperiod}}}%
+        {{hash=12bd589e36e98a8fe2e69e107c45aaec}{%
+           family={Wijnholds},
+           familyi={W\bibinitperiod},
+           given={Gijs},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1269c03f4d89abba55e31d4b3f8037e6}{%
+           family={Sadrzadeh},
+           familyi={S\bibinitperiod},
+           given={Mehrnoosh},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a5410598e3451d8140077527985b384f}{%
+           family={Correia},
+           familyi={C\bibinitperiod},
+           given={Adriana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8167013bfe97089a16ad5e2a07aaa54f}{%
+           family={Toumi},
+           familyi={T\bibinitperiod},
+           given={Alexis},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c9e14db1f563173097d2a00c4562f79}
+      \strng{fullhash}{38497e22b8bd173b3d45332f7aed54c0}
+      \strng{bibnamehash}{38497e22b8bd173b3d45332f7aed54c0}
+      \strng{authorbibnamehash}{38497e22b8bd173b3d45332f7aed54c0}
+      \strng{authornamehash}{0c9e14db1f563173097d2a00c4562f79}
+      \strng{authorfullhash}{38497e22b8bd173b3d45332f7aed54c0}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{CoRR}
+      \field{shorttitle}{Anaphora and {{Ellipsis}} in {{Lambek Calculus}} with a {{Relevant Modality}}}
+      \field{title}{Anaphora and {{Ellipsis}} in {{Lambek Calculus}} with a {{Relevant Modality}}: {{Syntax}} and {{Semantics}}}
+      \field{volume}{abs/2110.10641}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{eprint}
+      \verb 2110.10641
+      \endverb
+      \verb{file}
+      \verb /Users/alexis.toumi/Zotero/storage/RAZ3QYPQ/McPheat et al. - 2021 - Anaphora and Ellipsis in Lambek Calculus with a Re.pdf;/Users/alexis.toumi/Zotero/storage/N68RPKHC/2110.html
+      \endverb
+      \keyw{Computer Science - Logic in Computer Science}
+    \endentry
+    \entry{ToumiEtAl21}{article}{useprefix=true}
       \name{author}{3}{}{%
         {{hash=8167013bfe97089a16ad5e2a07aaa54f}{%
            family={Toumi},
@@ -160,47 +254,49 @@
            familyi={Y\bibinitperiod},
            given={Richie},
            giveni={R\bibinitperiod}}}%
-        {{hash=9caaa3065f19307a0a1fa2f3f0c21da6}{%
-           family={{de Felice}},
-           familyi={d\bibinitperiod},
+        {{hash=90a608e5aa8c815f07e4c59d5b93be62}{%
+           family={Felice},
+           familyi={F\bibinitperiod},
            given={Giovanni},
-           giveni={G\bibinitperiod}}}%
+           giveni={G\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
       }
-      \strng{namehash}{dc053acf3b6135e4e7dcca572b8d4ce6}
-      \strng{fullhash}{dc053acf3b6135e4e7dcca572b8d4ce6}
-      \strng{bibnamehash}{dc053acf3b6135e4e7dcca572b8d4ce6}
-      \strng{authorbibnamehash}{dc053acf3b6135e4e7dcca572b8d4ce6}
-      \strng{authornamehash}{dc053acf3b6135e4e7dcca572b8d4ce6}
-      \strng{authorfullhash}{dc053acf3b6135e4e7dcca572b8d4ce6}
+      \strng{namehash}{506d7191764b218a8ca230b28b3e708d}
+      \strng{fullhash}{506d7191764b218a8ca230b28b3e708d}
+      \strng{bibnamehash}{506d7191764b218a8ca230b28b3e708d}
+      \strng{authorbibnamehash}{506d7191764b218a8ca230b28b3e708d}
+      \strng{authornamehash}{506d7191764b218a8ca230b28b3e708d}
+      \strng{authorfullhash}{506d7191764b218a8ca230b28b3e708d}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We introduce diagrammatic differentiation for tensor calculus by generalising the dual number construction from rigs to monoidal categories. Applying this to ZX diagrams, we show how to calculate diagrammatically the gradient of a linear map with respect to a phase parameter. For diagrams of parametrised quantum circuits, we get the well-known parameter-shift rule at the basis of many variational quantum algorithms. We then extend our method to the automatic differentation of hybrid classical-quantum circuits, using diagrams with bubbles to encode arbitrary non-linear operators. Moreover, diagrammatic differentiation comes with an open-source implementation in DisCoPy, the Python library for monoidal categories. Diagrammatic gradients of classical-quantum circuits can then be simplified using the PyZX library and executed on quantum hardware via the tket compiler. This opens the door to many practical applications harnessing both the structure of string diagrams and the computational power of quantum machine learning.}
       \field{eprinttype}{arxiv}
-      \field{journaltitle}{ArXiv e-prints}
+      \field{journaltitle}{Quantum Physics and Logic (QPL)}
       \field{title}{Diagrammatic {{Differentiation}} for {{Quantum Machine Learning}}}
       \field{year}{2021}
+      \field{dateera}{ce}
       \verb{eprint}
       \verb 2103.07960
       \endverb
-      \verb{file}
-      \verb /Users/alexis.toumi/WORK/Zotero/storage/9AMPGNMD/Toumi et al. - 2021 - Diagrammatic Differentiation for Quantum Machine L.pdf;/Users/alexis.toumi/WORK/Zotero/storage/YCV56PUP/Toumi et al. - 2021 - Diagrammatic Differentiation for Quantum Machine L.pdf;/Users/alexis.toumi/WORK/Zotero/storage/PCS5E7BE/2103.html;/Users/alexis.toumi/WORK/Zotero/storage/PW8P39PU/2103.html
-      \endverb
       \keyw{Computer Science - Machine Learning,Mathematics - Category Theory,Quantum Physics}
     \endentry
-    \entry{CoeckeEtAl20}{article}{}
+    \entry{CoeckeEtAl20}{article}{useprefix=true}
       \name{author}{4}{}{%
         {{hash=c8d0d6b0d8ca354b544208d9fa6abd9d}{%
            family={Coecke},
            familyi={C\bibinitperiod},
            given={Bob},
            giveni={B\bibinitperiod}}}%
-        {{hash=9caaa3065f19307a0a1fa2f3f0c21da6}{%
-           family={{de Felice}},
-           familyi={d\bibinitperiod},
+        {{hash=90a608e5aa8c815f07e4c59d5b93be62}{%
+           family={Felice},
+           familyi={F\bibinitperiod},
            given={Giovanni},
-           giveni={G\bibinitperiod}}}%
+           giveni={G\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
         {{hash=a543adaef8032a7eb9c4d78a0722680b}{%
            family={Meichanetzidis},
            familyi={M\bibinitperiod},
@@ -213,11 +309,11 @@
            giveni={A\bibinitperiod}}}%
       }
       \strng{namehash}{7c7f34b128c8abc3346fc67b0d439586}
-      \strng{fullhash}{0ee13093a7783074e3944c2b459b3634}
-      \strng{bibnamehash}{0ee13093a7783074e3944c2b459b3634}
-      \strng{authorbibnamehash}{0ee13093a7783074e3944c2b459b3634}
+      \strng{fullhash}{700054ab8f1746987d7622fb9b39bb51}
+      \strng{bibnamehash}{700054ab8f1746987d7622fb9b39bb51}
+      \strng{authorbibnamehash}{700054ab8f1746987d7622fb9b39bb51}
       \strng{authornamehash}{7c7f34b128c8abc3346fc67b0d439586}
-      \strng{authorfullhash}{0ee13093a7783074e3944c2b459b3634}
+      \strng{authorfullhash}{700054ab8f1746987d7622fb9b39bb51}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
@@ -225,23 +321,23 @@
       \field{abstract}{We provide conceptual and mathematical foundations for near-term quantum natural language processing (QNLP), and do so in quantum computer scientist friendly terms. We opted for an expository presentation style, and provide references for supporting empirical evidence and formal statements concerning mathematical generality. We recall how the quantum model for natural language that we employ canonically combines linguistic meanings with rich linguistic structure, most notably grammar. In particular, the fact that it takes a quantum-like model to combine meaning and structure, establishes QNLP as quantum-native, on par with simulation of quantum systems. Moreover, the now leading Noisy Intermediate-Scale Quantum (NISQ) paradigm for encoding classical data on quantum hardware, variational quantum circuits, makes NISQ exceptionally QNLP-friendly: linguistic structure can be encoded as a free lunch, in contrast to the apparently exponentially expensive classical encoding of grammar. Quantum speed-up for QNLP tasks has already been established in previous work with Will Zeng. Here we provide a broader range of tasks which all enjoy the same advantage. Diagrammatic reasoning is at the heart of QNLP. Firstly, the quantum model interprets language as quantum processes via the diagrammatic formalism of categorical quantum mechanics. Secondly, these diagrams are via ZX-calculus translated into quantum circuits. Parameterisations of meanings then become the circuit variables to be learned. Our encoding of linguistic structure within quantum circuits also embodies a novel approach for establishing word-meanings that goes beyond the current standards in mainstream AI, by placing linguistic structure at the heart of Wittgenstein's meaning-is-context.}
       \field{eprinttype}{arxiv}
       \field{journaltitle}{ArXiv e-prints}
-      \field{title}{Foundations for {{Near}}-{{Term Quantum Natural Language Processing}}}
+      \field{title}{Foundations for {{Near-Term Quantum Natural Language Processing}}}
       \field{year}{2020}
+      \field{dateera}{ce}
       \verb{eprint}
       \verb 2012.03755
       \endverb
-      \verb{file}
-      \verb /Users/alexis.toumi/WORK/Zotero/storage/T6W6LJ6N/Coecke et al. - 2020 - Foundations for Near-Term Quantum Natural Language.pdf;/Users/alexis.toumi/WORK/Zotero/storage/VXZ5LBXV/Coecke et al. - 2020 - Foundations for Near-Term Quantum Natural Language.pdf;/Users/alexis.toumi/WORK/Zotero/storage/ZP6HJE3X/Coecke et al. - 2020 - Foundations for Near-Term Quantum Natural Language.pdf;/Users/alexis.toumi/WORK/Zotero/storage/6Y5JTBJQ/2012.html;/Users/alexis.toumi/WORK/Zotero/storage/JJ9E98ZW/2012.html;/Users/alexis.toumi/WORK/Zotero/storage/N7NFBEB4/2012.html
-      \endverb
       \keyw{Computer Science - Computation and Language,Quantum Physics}
     \endentry
-    \entry{functorial-question}{inproceedings}{}
+    \entry{functorial-question}{inproceedings}{useprefix=true}
       \name{author}{3}{}{%
-        {{hash=9caaa3065f19307a0a1fa2f3f0c21da6}{%
-           family={{de Felice}},
-           familyi={d\bibinitperiod},
+        {{hash=90a608e5aa8c815f07e4c59d5b93be62}{%
+           family={Felice},
+           familyi={F\bibinitperiod},
            given={Giovanni},
-           giveni={G\bibinitperiod}}}%
+           giveni={G\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
         {{hash=a543adaef8032a7eb9c4d78a0722680b}{%
            family={Meichanetzidis},
            familyi={M\bibinitperiod},
@@ -256,12 +352,12 @@
       \list{publisher}{1}{%
         {EPTCS}%
       }
-      \strng{namehash}{23cc8cebeb9cb34568f3f7e4bc895c93}
-      \strng{fullhash}{23cc8cebeb9cb34568f3f7e4bc895c93}
-      \strng{bibnamehash}{23cc8cebeb9cb34568f3f7e4bc895c93}
-      \strng{authorbibnamehash}{23cc8cebeb9cb34568f3f7e4bc895c93}
-      \strng{authornamehash}{23cc8cebeb9cb34568f3f7e4bc895c93}
-      \strng{authorfullhash}{23cc8cebeb9cb34568f3f7e4bc895c93}
+      \strng{namehash}{b2c9b9f69bafccf96f5ee6fd8179a91a}
+      \strng{fullhash}{b2c9b9f69bafccf96f5ee6fd8179a91a}
+      \strng{bibnamehash}{b2c9b9f69bafccf96f5ee6fd8179a91a}
+      \strng{authorbibnamehash}{b2c9b9f69bafccf96f5ee6fd8179a91a}
+      \strng{authornamehash}{b2c9b9f69bafccf96f5ee6fd8179a91a}
+      \strng{authorfullhash}{b2c9b9f69bafccf96f5ee6fd8179a91a}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
@@ -270,11 +366,9 @@
       \field{booktitle}{Proceedings {{ACT}} 2019}
       \field{title}{Functorial {{Question Answering}}}
       \field{year}{2020}
+      \field{dateera}{ce}
       \verb{doi}
       \verb 10.4204/EPTCS.323.6
-      \endverb
-      \verb{file}
-      \verb /Users/alexis.toumi/WORK/Zotero/storage/QXS2RA8E/de Felice et al. - 2020 - Functorial Question Answering.pdf;/Users/alexis.toumi/WORK/Zotero/storage/CIQ7Z5AK/1905.html
       \endverb
       \keyw{Computer Science - Computation and Language,Computer Science - Databases,Computer Science - Logic in Computer Science,Mathematics - Category Theory}
     \endentry
@@ -295,10 +389,10 @@
            familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod},
            given={Giovanni},
            giveni={G\bibinitperiod}}}%
-        {{hash=6841fe55b212b7bfe1c4ffedf09f2273}{%
+        {{hash=239388f3d82a5d7a6adfdd113a3bc56c}{%
            family={Chiappori},
            familyi={C\bibinitperiod},
-           given={Nicol{ò}},
+           given={Nicolò},
            giveni={N\bibinitperiod}}}%
         {{hash=8167013bfe97089a16ad5e2a07aaa54f}{%
            family={Toumi},
@@ -312,11 +406,11 @@
            giveni={B\bibinitperiod}}}%
       }
       \strng{namehash}{fa596dcda3f6abb3eeeb4eda39cba61f}
-      \strng{fullhash}{ef90ca29398ab677f45763c37fcbf062}
-      \strng{bibnamehash}{ef90ca29398ab677f45763c37fcbf062}
-      \strng{authorbibnamehash}{ef90ca29398ab677f45763c37fcbf062}
+      \strng{fullhash}{31cabea936b5b84182d2998087cf8f14}
+      \strng{bibnamehash}{31cabea936b5b84182d2998087cf8f14}
+      \strng{authorbibnamehash}{31cabea936b5b84182d2998087cf8f14}
       \strng{authornamehash}{fa596dcda3f6abb3eeeb4eda39cba61f}
-      \strng{authorfullhash}{ef90ca29398ab677f45763c37fcbf062}
+      \strng{authorfullhash}{31cabea936b5b84182d2998087cf8f14}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
@@ -324,17 +418,15 @@
       \field{abstract}{In this work, we describe a full-stack pipeline for natural language processing on near-term quantum computers, aka QNLP. The language modelling framework we employ is that of compositional distributional semantics (DisCoCat), which extends and complements the compositional structure of pregroup grammars. Within this model, the grammatical reduction of a sentence is interpreted as a diagram, encoding a specific interaction of words according to the grammar. It is this interaction which, together with a specific choice of word embedding, realises the meaning (or "semantics") of a sentence. Building on the formal quantum-like nature of such interactions, we present a method for mapping DisCoCat diagrams to quantum circuits. Our methodology is compatible both with NISQ devices and with established Quantum Machine Learning techniques, paving the way to near-term applications of quantum technology to natural language processing.}
       \field{booktitle}{Quantum {{Physics}} and {{Logic}} ({{QPL}})}
       \field{eprinttype}{arxiv}
-      \field{title}{Quantum {{Natural Language Processing}} on {{Near}}-{{Term Quantum Computers}}}
+      \field{title}{Quantum {{Natural Language Processing}} on {{Near-Term Quantum Computers}}}
       \field{year}{2020}
+      \field{dateera}{ce}
       \verb{eprint}
       \verb 2005.04147
       \endverb
-      \verb{file}
-      \verb /Users/alexis.toumi/WORK/Zotero/storage/5FUF9JMF/Meichanetzidis et al. - 2020 - Quantum Natural Language Processing on Near-Term Q.pdf;/Users/alexis.toumi/WORK/Zotero/storage/KCUELZGV/Meichanetzidis et al. - 2020 - Quantum Natural Language Processing on Near-Term Q.pdf;/Users/alexis.toumi/WORK/Zotero/storage/YL3H4IR4/Meichanetzidis et al. - 2020 - Quantum Natural Language Processing on Near-Term Q.pdf;/Users/alexis.toumi/WORK/Zotero/storage/2PPIAEI6/2005.html;/Users/alexis.toumi/WORK/Zotero/storage/JIK7K4E5/2005.html;/Users/alexis.toumi/WORK/Zotero/storage/NA5TLJV4/2005.html
-      \endverb
       \keyw{Computer Science - Computation and Language,Quantum Physics}
     \endentry
-    \entry{MeichanetzidisEtAl20}{article}{}
+    \entry{MeichanetzidisEtAl20}{article}{useprefix=true}
       \name{author}{4}{}{%
         {{hash=a543adaef8032a7eb9c4d78a0722680b}{%
            family={Meichanetzidis},
@@ -346,11 +438,13 @@
            familyi={T\bibinitperiod},
            given={Alexis},
            giveni={A\bibinitperiod}}}%
-        {{hash=9caaa3065f19307a0a1fa2f3f0c21da6}{%
-           family={{de Felice}},
-           familyi={d\bibinitperiod},
+        {{hash=90a608e5aa8c815f07e4c59d5b93be62}{%
+           family={Felice},
+           familyi={F\bibinitperiod},
            given={Giovanni},
-           giveni={G\bibinitperiod}}}%
+           giveni={G\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
         {{hash=c8d0d6b0d8ca354b544208d9fa6abd9d}{%
            family={Coecke},
            familyi={C\bibinitperiod},
@@ -358,11 +452,11 @@
            giveni={B\bibinitperiod}}}%
       }
       \strng{namehash}{fa596dcda3f6abb3eeeb4eda39cba61f}
-      \strng{fullhash}{7972d7bb3c8bcd7968091559e4861dc9}
-      \strng{bibnamehash}{7972d7bb3c8bcd7968091559e4861dc9}
-      \strng{authorbibnamehash}{7972d7bb3c8bcd7968091559e4861dc9}
+      \strng{fullhash}{1c80133610602bbee4e3642d80da6039}
+      \strng{bibnamehash}{1c80133610602bbee4e3642d80da6039}
+      \strng{authorbibnamehash}{1c80133610602bbee4e3642d80da6039}
       \strng{authornamehash}{fa596dcda3f6abb3eeeb4eda39cba61f}
-      \strng{authorfullhash}{7972d7bb3c8bcd7968091559e4861dc9}
+      \strng{authorfullhash}{1c80133610602bbee4e3642d80da6039}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
@@ -370,17 +464,15 @@
       \field{abstract}{Natural language processing (NLP) is at the forefront of great advances in contemporary AI, and it is arguably one of the most challenging areas of the field. At the same time, with the steady growth of quantum hardware and notable improvements towards implementations of quantum algorithms, we are approaching an era when quantum computers perform tasks that cannot be done on classical computers with a reasonable amount of resources. This provides a new range of opportunities for AI, and for NLP specifically. Earlier work has already demonstrated a potential quantum advantage for NLP in a number of manners: (i) algorithmic speedups for search-related or classification tasks, which are the most dominant tasks within NLP, (ii) exponentially large quantum state spaces allow for accommodating complex linguistic structures, (iii) novel models of meaning employing density matrices naturally model linguistic phenomena such as hyponymy and linguistic ambiguity, among others. In this work, we perform the first implementation of an NLP task on noisy intermediate-scale quantum (NISQ) hardware. Sentences are instantiated as parameterised quantum circuits. We encode word-meanings in quantum states and we explicitly account for grammatical structure, which even in mainstream NLP is not commonplace, by faithfully hard-wiring it as entangling operations. This makes our approach to quantum natural language processing (QNLP) particularly NISQ-friendly. Our novel QNLP model shows concrete promise for scalability as the quality of the quantum hardware improves in the near future.}
       \field{eprinttype}{arxiv}
       \field{journaltitle}{ArXiv e-prints}
-      \field{title}{Grammar-{{Aware Question}}-{{Answering}} on {{Quantum Computers}}}
+      \field{title}{Grammar-{{Aware Question-Answering}} on {{Quantum Computers}}}
       \field{year}{2020}
+      \field{dateera}{ce}
       \verb{eprint}
       \verb 2012.03756
       \endverb
-      \verb{file}
-      \verb /Users/alexis.toumi/WORK/Zotero/storage/M8S86RYQ/Meichanetzidis et al. - 2020 - Grammar-Aware Question-Answering on Quantum Comput.pdf;/Users/alexis.toumi/WORK/Zotero/storage/TMLK5JSQ/Meichanetzidis et al. - 2020 - Grammar-Aware Question-Answering on Quantum Comput.pdf;/Users/alexis.toumi/WORK/Zotero/storage/HFXXKIAA/2012.html;/Users/alexis.toumi/WORK/Zotero/storage/Q9QNRCI7/2012.html
-      \endverb
       \keyw{Computer Science - Computation and Language,Quantum Physics}
     \endentry
-    \entry{ShieblerEtAl20}{article}{}
+    \entry{ShieblerEtAl20}{unpublished}{}
       \name{author}{3}{}{%
         {{hash=c500e680bea14a932e78e1a3924f9178}{%
            family={Shiebler},
@@ -413,11 +505,9 @@
       \field{series}{{{SYCO}} 6, {{Sixth Symposium}} on {{Compositional Structures}}}
       \field{title}{Incremental {{Monoidal Grammars}}}
       \field{year}{2020}
+      \field{dateera}{ce}
       \verb{eprint}
       \verb 2001.02296
-      \endverb
-      \verb{file}
-      \verb /Users/alexis.toumi/WORK/Zotero/storage/ID7EHQCL/Shiebler et al. - 2020 - Incremental Monoidal Grammars.pdf;/Users/alexis.toumi/WORK/Zotero/storage/XMAC8HDZ/Shiebler et al. - 2020 - Incremental Monoidal Grammars.pdf;/Users/alexis.toumi/WORK/Zotero/storage/LA37WBDA/2001.html;/Users/alexis.toumi/WORK/Zotero/storage/PIVXNRKN/2001.html
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Formal Languages and Automata Theory,Computer Science - Logic in Computer Science}
     \endentry
@@ -468,26 +558,26 @@
       \field{issn}{2379-2140}
       \field{title}{Automatic Page Classification in a Large Collection of Manuscripts Based on the International Image Interoperability Framework}
       \field{year}{2019}
+      \field{dateera}{ce}
       \verb{doi}
       \verb 10.1109/ICDAR.2019.00126
       \endverb
-      \verb{file}
-      \verb /Users/alexis.toumi/WORK/Zotero/storage/775HV8VV/8978196.html
-      \endverb
       \keyw{Cultural differences,Feature extraction,Histograms,historical documents,IIIF,Image classification,Image recognition,Interoperability,Machine learning,Neural networks,Servers,Text analysis}
     \endentry
-    \entry{CoeckeEtAl18a}{inproceedings}{}
+    \entry{CoeckeEtAl18a}{inproceedings}{useprefix=true}
       \name{author}{4}{}{%
         {{hash=c8d0d6b0d8ca354b544208d9fa6abd9d}{%
            family={Coecke},
            familyi={C\bibinitperiod},
            given={Bob},
            giveni={B\bibinitperiod}}}%
-        {{hash=9caaa3065f19307a0a1fa2f3f0c21da6}{%
-           family={{de Felice}},
-           familyi={d\bibinitperiod},
+        {{hash=90a608e5aa8c815f07e4c59d5b93be62}{%
+           family={Felice},
+           familyi={F\bibinitperiod},
            given={Giovanni},
-           giveni={G\bibinitperiod}}}%
+           giveni={G\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
         {{hash=8c606738090153da5b726d3345987aed}{%
            family={Marsden},
            familyi={M\bibinitperiod},
@@ -503,11 +593,11 @@
         {EPTCS}%
       }
       \strng{namehash}{7c7f34b128c8abc3346fc67b0d439586}
-      \strng{fullhash}{3eb57a38679603f80d1c318ab664f9f4}
-      \strng{bibnamehash}{3eb57a38679603f80d1c318ab664f9f4}
-      \strng{authorbibnamehash}{3eb57a38679603f80d1c318ab664f9f4}
+      \strng{fullhash}{f0eb89612a6d40ac7dd1fbb253a13e60}
+      \strng{bibnamehash}{f0eb89612a6d40ac7dd1fbb253a13e60}
+      \strng{authorbibnamehash}{f0eb89612a6d40ac7dd1fbb253a13e60}
       \strng{authornamehash}{7c7f34b128c8abc3346fc67b0d439586}
-      \strng{authorfullhash}{3eb57a38679603f80d1c318ab664f9f4}
+      \strng{authorfullhash}{f0eb89612a6d40ac7dd1fbb253a13e60}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
@@ -517,11 +607,9 @@
       \field{month}{11}
       \field{title}{Towards {{Compositional Distributional Discourse Analysis}}}
       \field{year}{2018}
+      \field{dateera}{ce}
       \verb{doi}
       \verb 10.4204/EPTCS.283.1
-      \endverb
-      \verb{file}
-      \verb /Users/alexis.toumi/WORK/Zotero/storage/5T7LPQ6Y/Coecke et al. - 2018 - Towards Compositional Distributional Discourse Ana.pdf;/Users/alexis.toumi/WORK/Zotero/storage/WLIHHFIB/1811.html
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Databases}
     \endentry
@@ -566,8 +654,15 @@
       \field{journaltitle}{Theoretical Computer Science}
       \field{title}{Generalized Relations in Linguistics \& Cognition}
       \field{year}{2018}
+      \field{dateera}{ce}
       \verb{doi}
       \verb 10.1016/j.tcs.2018.03.008
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.tcs.2018.03.008
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.tcs.2018.03.008
       \endverb
       \keyw{Categorical models of meaning,Generalized relations,Generalized spans}
     \endentry
@@ -617,6 +712,7 @@
       \field{booktitle}{Proceedings of the {{Thirtieth AAAI Conference}} on {{Artificial Intelligence}}}
       \field{title}{Rational {{Verification}}: {{From Model Checking}} to {{Equilibrium Checking}}}
       \field{year}{2016}
+      \field{dateera}{ce}
       \verb{doi}
       \verb 10.1016/j.artint.2017.04.003
       \endverb
@@ -652,13 +748,11 @@
       \field{booktitle}{Theoretical {{Aspects}} of {{Computing}} - {{ICTAC}} 2015 - 12th {{International Colloquium Cali}}, {{Colombia}}, {{October}} 29-31, 2015, {{Proceedings}}}
       \field{title}{A {{Tool}} for the {{Automated Verification}} of {{Nash Equilibria}} in {{Concurrent Games}}}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{583\bibrangedash 594}
       \range{pages}{12}
       \verb{doi}
       \verb 10.1007/978-3-319-25150-9_34
-      \endverb
-      \verb{file}
-      \verb /Users/alexis.toumi/WORK/Zotero/storage/6FF5GKFN/Toumi et al. - 2015 - A Tool for the Automated Verification of Nash Equi.pdf
       \endverb
     \endentry
   \enddatalist
