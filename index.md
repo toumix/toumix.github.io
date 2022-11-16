@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Alexis TOUMI
+description: personal website
 ---
 
 ## Hello, world!
