@@ -19,4 +19,5 @@ permalink: /news
 
 ## May 2022
 
+* I gave a demo of DisCoPy at [QNLP 2022](https://qnlp.cambridgequantum.com/conf2022/), the recording is available [here](https://www.youtube.com/watch?v=P7nZHX0xhAI).
 * I successfully defended my D.Phil. thesis! [Sam Staton](https://www.cs.ox.ac.uk/people/samuel.staton/main.html) and [Michael Moortgat](https://www.uu.nl/medewerkers/MJMoortgat) were my examiners.
