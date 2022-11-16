@@ -28,6 +28,13 @@
         <section id="main_content">
           {{ content }}
         </section>
+
+        <hr>
+
+        <footer>
+            {% capture footer %}{% include footer.md %}{% endcapture %}
+            {{ footer | markdownify }}
+        </footer>
       </div>
     </div>
   </body>

@@ -3,16 +3,22 @@
 
 @import "{{ site.theme }}";
 
-#container, body, h2 {
+#container, body, h2, footer {
     background: none;
     background-color: black;
     text-shadow: none;
     color: white;
+    font-size: 100%;
 }
 
-header h1, h1, a, strong {
+header h1, h1, a, footer a, strong {
     font-family: sans-serif;
     color: orange;
+}
+
+footer {
+    margin-top: 0;
+    padding-top: 0;
 }
 
 hr {
@@ -35,6 +41,7 @@ ul, ol {
 ul.social {
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 42px;
 }
 
 .social li {
