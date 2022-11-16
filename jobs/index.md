@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: default
 permalink: /jobs
 ---
 
 # Job offers
 
-* [Internship: Text Summarisation with Quantum Natural Language Processing](22-11-16-qnlp-summarisation)
+* [Internship: Text Summarisation with Quantum Natural Language Processing](jobs/22-11-16-qnlp-summarisation)

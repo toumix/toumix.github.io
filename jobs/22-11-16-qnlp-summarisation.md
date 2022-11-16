@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: default
+title: "Internship: Text Summarisation with Quantum Natural Language Processing"
 permalink: /jobs/22-11-16-qnlp-summarisation
 ---
-
-# Text Summarisation with Quantum Natural Language Processing
 
 ## Context
 
