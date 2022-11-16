@@ -10,8 +10,8 @@ permalink: /news
 ## November 2022
 
 * I'm looking for an intern to work on [text summarisation with quantum natural language processing](jobs/22-11-16-qnlp-summarisation).
-* I gave a talk [JIQ'22](https://qi.lip6.fr/jiq22/), the slides are available [here](slides/22-11-15-CT-for-QNLP.html).
 * This website went from from hand-written html to [Jekyll](https://jekyllrb.com/).
+* I gave a talk at [JIQ'22](https://qi.lip6.fr/jiq22/), the slides are available [here](slides/22-11-15-CT-for-QNLP.html).
 
 ## October 2022
 
