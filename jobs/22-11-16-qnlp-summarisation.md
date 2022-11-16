@@ -39,4 +39,4 @@ Send an email to the people above with:
 
 [^DF09]: Dan Gillick and Benoit Favre [A scalable global model for summarization](https://aclanthology.org/W09-1802.pdf) (2009)
 
-[^Coe20]: Coecke, Bob, et al. [Foundations for near-term quantum natural language processing](https://arxiv.org/abs/2012.03755) (2020)
+[^Coe20]: Bob Coecke, Giovanni de Felice, Konstantinos Meichanetzidis and Alexis Toumi [Foundations for near-term quantum natural language processing](https://arxiv.org/abs/2012.03755) (2020)
