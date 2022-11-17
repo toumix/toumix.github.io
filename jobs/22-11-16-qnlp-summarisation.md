@@ -16,16 +16,15 @@ In a recent approach[^Coe20], text is represented as parameterised circuits that
 ## Objective
 
 The aim of the internship is to apply QNLP to the problem of **automatic text summarisation**.[^DF09]
-
 The student will design quantum algorithms, investigate their asymptotic speedup compared to classical ones and implement proof-of-concept experiments to evaluate them.
 
 ## Supervision
 
 The internship will be hosted at the [Laboratoire d'Informatique & Systèmes](https://www.lis-lab.fr/) in Marseille, supervised by:
 
-* [Alexis Toumi](https://alexis.toumi.xyz)
-* [Benoit Favre](https://pageperso.lis-lab.fr/benoit.favre/)
-* [Giuseppe di Molfetta](https://www.giuseppe-dimolfetta.com/)
+* Alexis Toumi ([alexis@toumi.email](mailto:alexis@toumi.email))
+* Benoit Favre ([benoit.favre@lis-lab.fr](mailto:benoit.favre@lis-lab.fr))
+* Giuseppe di Molfetta ([giuseppe.dimolfetta@lis-lab.fr](mailto:giuseppe.dimolfetta@lis-lab.fr))
 
 ## Application
 
