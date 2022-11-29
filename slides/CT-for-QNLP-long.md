@@ -42,7 +42,6 @@ A (monoidal) **signature** $\Sigma = (\Sigma_0, \Sigma_1, \text{dom}, \text{cod}
 
 # Morphisms of signatures
 
-
 Given a signature $\Sigma$, we write $f : x \to y \in \Sigma$ for $f \in \Sigma_1$ and $x, y \in \Sigma_0^\star$ with $\text{dom}(f) = x$ and $\text{cod}(f) = y$.
 
 Given two signatures $\Sigma$ and $\Sigma'$,
@@ -215,9 +214,9 @@ A category is symmetric if it comes with **swaps**.
 
 <style scoped> section img { display: block; float: left; }</style>
 
-![height:400px](imgs/symmetric-1.png)
+![height:400px](22-11-29-CT-for-QNLP_files/symmetric-1.png)
 
-![height:400px](imgs/symmetric-2.png)
+![height:400px](22-11-29-CT-for-QNLP_files/symmetric-2.png)
 
 ---
 
@@ -226,7 +225,7 @@ A category is symmetric if it comes with **swaps**.
 A symmetric category is compact if it comes with **cups and caps**. ![height:200px](https://discopy.readthedocs.io/en/docs/_images/snake-equation1.png)
 
 **Entanglement** is "*the* characteristic trait of quantum mechanics".
-![width:550px](imgs/classical-vs-quantum.png)
+![width:550px](22-11-29-CT-for-QNLP_files/classical-vs-quantum.png)
 
 ---
 
@@ -236,7 +235,7 @@ A symmetric category is cartesian if it has **copy and discard**.
 
 ![width:800px](https://math.ucr.edu/home/baez/mathematical/ACT2018/lorand/cocomm_comonoid_axioms.png)
 
-![width:800px](imgs/cartesian-2.png)
+![width:800px](22-11-29-CT-for-QNLP_files/cartesian-2.png)
 
 In physical terms, the last equation (again called **naturality**) is equivalent to **causality**: the future cannot influence the past.
 
@@ -246,7 +245,7 @@ In physical terms, the last equation (again called **naturality**) is equivalent
 
 **Theorem:** $\ \text{compact} \ + \ \text{discard} \implies \text{trivial}$
 
-![width:600px](imgs/no-deleting.jpg)
+![width:600px](22-11-29-CT-for-QNLP_files/no-deleting.jpg)
 
 - Abramsky, [No-cloning in categorical quantum mechanics](https://arxiv.org/abs/0910.2401) (2009)
 - Heunen & Vicary, **Categories for Quantum Theory** (2019)
@@ -257,7 +256,7 @@ In physical terms, the last equation (again called **naturality**) is equivalent
 
 **Lemma:** Suppose a symmetric category has both cups and copy.
 
-![width:500px](imgs/no-cloning-lemma-1.png)![width:500px](imgs/no-cloning-lemma-2.png)
+![width:500px](22-11-29-CT-for-QNLP_files/no-cloning-lemma-1.png)![width:500px](22-11-29-CT-for-QNLP_files/no-cloning-lemma-2.png)
 
 ---
 
@@ -265,7 +264,7 @@ In physical terms, the last equation (again called **naturality**) is equivalent
 
 **Theorem:** $\text{compact} \ + \ \text{copy} \implies \text{(almost) trivial}$
 
-![width:1000px](imgs/no-cloning-proof.png)
+![width:1000px](22-11-29-CT-for-QNLP_files/no-cloning-proof.png)
 
 ---
 
