@@ -184,7 +184,7 @@ $$
 
 ![height:300px](https://danielmichaelcicala.github.io/act2019/assets/dialogue-challenge/3-thesis-loves-a-mortal.png)
 
-Natural language **semantics** as a functor $F : \mathbf{Grammar} \to \mathbf{Set}$, defined using the **lambda calculus** and **first-order logic**.
+Natural language **semantics** as a functor $F : \mathbf{G} \to \mathbf{Set}$, defined using the **lambda calculus** and **first-order logic**.
 
 ---
 
@@ -194,7 +194,7 @@ Natural language **semantics** as a functor $F : \mathbf{Grammar} \to \mathbf{Se
 
 ![height:250px](https://cqc.pythonanywhere.com/discocat/png?sentence=This%20sentence%20is%20a%20string%20diagram&size=small)
 
-**DisCoCat** models are functors $F : \mathbf{Grammar} \to \mathbf{Hilb}$, unifying **Dis(tributional)** and **Co(mpositional)** semantics with **Cat(egories)**.
+**DisCoCat** models are functors $F : \mathbf{G} \to \mathbf{Hilb}$, unifying **Dis(tributional)** and **Co(mpositional)** semantics with **Cat(egories)**.
 
 ---
 
@@ -307,33 +307,34 @@ $$\quad$$
 
 # QNLP: definition
 
-We define a QNLP model as a monoidal functor:
+We define a QNLP model as a monoidal functor $F : \mathbf{G} \to \mathbf{Circuit}$.
 
-$$
-F : \mathbf{Grammar} \to \mathbf{Circuit}
-$$
+![height:250px](https://discopy.readthedocs.io/en/main/_images/functor-example2.png)
 
-![](https://discopy.readthedocs.io/en/main/_images/functor-example2.png)
+- Zeng & Coecke, **Quantum algorithms for compositional natural language processing** (2016)
+- Wiebe et al., **Quantum language processing** (2019)
 
 ---
 
 # QNLP: implementation
 
-We define a QNLP model as a monoidal functor:
-
-$$
-F : \mathbf{Grammar} \to \mathbf{Circuit}
-$$
+We define a QNLP model as a monoidal functor $F : \mathbf{G} \to \mathbf{Circuit}$.
 
 ```python
-from discopy.quantum import qubit, Ket, H, X, CX, sqrt
+from discopy import Ty, Word, Id, Cup
 from discopy.circuit import Functor
+from discopy.quantum import qubit, Ket, H, X, CX, sqrt
 
-F_ = circuit.Functor(
+s, n = Ty('s'), Ty('n')
+Alice, loves, Bob = Word('Alice', n), Word('loves', n.r @ s @ n.l), Word('Bob', n)
+
+sentence = Alice @ loves @ Bob >> Cup(n, n.r) @ Id(s) @ Cup(n.l, n)
+
+F = circuit.Functor(
     ob={s: Ty(), n: qubit},
     ar={Alice: Ket(0), loves: sqrt(2) @ Ket(0, 0) >> H @ X >> CX, Bob: Ket(1)})
 
-assert F_(sentence).eval() == F(sentence)
+assert F(sentence).eval()
 ```
 
 ---
@@ -343,7 +344,7 @@ assert F_(sentence).eval() == F(sentence)
 We define a QNLP model as a **parameterised** monoidal functor:
 
 $$
-\big\{ F_\theta : \mathbf{Grammar} \to \mathbf{Circuit} \big\}_{\theta \in \Theta}
+\big\{ F_\theta : \mathbf{G} \to \mathbf{Circuit} \big\}_{\theta \in \Theta}
 $$
 
 Given a dataset $X = \{ (f, y) \}$ with $f$ a sentence and $y$ its truth value, we want to find the optimal functor $F^\star = F_{\theta^\star}$:
