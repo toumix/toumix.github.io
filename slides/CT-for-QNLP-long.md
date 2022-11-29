@@ -95,6 +95,52 @@ In physical terms, naturality means parallel processes are **spacelike-separated
 
 ---
 
+# Diagrams: quantum
+
+Quantum gate sets are signatures!
+
+<br>
+
+<style scoped> section img { display: block; float: right; }</style>
+
+![width:600px](https://www.quantum-bits.org/wp-content/uploads/2018/04/annotated-teleportation-circuit.png)
+
+* Wires are **bits** and **qubits**.
+* Boxes are quantum **gates**
+  and **measurements**.
+* Diagrams are **circuits**.
+
+---
+
+# Diagrams: grammar
+
+- Chomsky, **Syntactic Structures** (1957)
+
+Formal grammars are signatures!
+
+<br>
+
+<style scoped> section img { display: block; float: right; }</style>
+
+![width:400px](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cgisf-tgg.svg/1280px-Cgisf-tgg.svg.png)
+
+* Wires are grammatical **types**.
+* Boxes are grammatical **rules**.
+* Diagrams are **grammatical structures**.
+
+---
+
+# Diagrams: grammar
+
+- Lambek, **The mathematics of sentence structure** (1958)
+
+![height:300px](https://cqc.pythonanywhere.com/discocat/png)
+
+* Joachim Lambek, **Type grammar revisited** (1997)
+* Clark, Sadrzadeh & Coecke, **DisCoCat** (2008)
+
+---
+
 # Categories: definition
 
 A (strict monoidal) **category** $\mathbf{C}$ is a signature with three maps:
@@ -129,41 +175,37 @@ $$
 
 **Intuition:** The functors $F : \mathbf{C}_\Sigma \to \mathbf{D}$ are uniquely determined by their image on boxes, i.e. a morphism of signatures $F : \Sigma \to \mathbf{D}$.
 
----
-
-# Categories: grammar
-
-Chomsky, **Syntactic Structures** (1957)
-
-![width:400px](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cgisf-tgg.svg/1280px-Cgisf-tgg.svg.png)
-
-* Wires are grammatical **types**.
-* Boxes are grammatical **rules**.
-* Diagrams are **syntax**, functors into $\mathbf{Set}$ are **semantics**.
 
 ---
 
 # Categories: grammar
 
-![height:300px](https://cqc.pythonanywhere.com/discocat/png)
+- Montague, **English as a formal language** (1974)
 
-- Joachim Lambek, **The mathematics of sentence structure** (1958)
+![height:300px](https://danielmichaelcicala.github.io/act2019/assets/dialogue-challenge/3-thesis-loves-a-mortal.png)
 
-* Joachim Lambek, **Type grammar revisited** (1997)
-* Coecke et al., [DisCoCat framework](https://arxiv.org/abs/1003.4394) (2008, 2010)
+Natural language **semantics** as a functor $F : \mathbf{Grammar} \to \mathbf{Set}$, defined using the **lambda calculus** and **first-order logic**.
+
+---
+
+# Categories: grammar
+
+- Coecke, Sadrzadeh & Clark, [Mathematical Foundations for a Compositional Distributional Model of Meaning](https://arxiv.org/abs/1003.4394) (2010)
+
+![height:250px](https://cqc.pythonanywhere.com/discocat/png?sentence=This%20sentence%20is%20a%20string%20diagram&size=small)
+
+**DisCoCat** models are functors $F : \mathbf{Grammar} \to \mathbf{Hilb}$, unifying **Dis(tributional)** and **Co(mpositional)** semantics with **Cat(egories)**.
 
 ---
 
 # Categories: quantum
 
-Abramsky & Coecke, [Categorical quantum mechanics](https://arxiv.org/abs/0808.1023) (2008)
-[A categorical semantics of quantum protocols](https://arxiv.org/abs/quant-ph/0402130) (2004)
+- Abramsky & Coecke, [Categorical quantum mechanics](https://arxiv.org/abs/0808.1023) (2008)
+  [A categorical semantics of quantum protocols](https://arxiv.org/abs/quant-ph/0402130) (2004)
 
-![](https://upload.wikimedia.org/wikipedia/commons/e/e8/Teleport.png)
+![width:1000px](https://upload.wikimedia.org/wikipedia/commons/e/e8/Teleport.png)
 
-* Wires are quantum **systems**.
-* Boxes are quantum **processes**.
-* Diagrams are **protocols**, functors into $\mathbf{Hilb}$ are **semantics**.
+The principles of quantum theory as properties of the category $\mathbf{Hilb}$.
 
 ---
 
@@ -179,14 +221,12 @@ A category is symmetric if it comes with **swaps**.
 
 ---
 
-# Categories: dagger compact
+# Categories: compact
 
-A symmetric category is compact if it has **cups and caps** satisfying the **snake equation**:
+A symmetric category is compact if it comes with **cups and caps**. ![height:200px](https://discopy.readthedocs.io/en/docs/_images/snake-equation1.png)
 
-![height:200px](https://discopy.readthedocs.io/en/docs/_images/snake-equation1.png)
-
-A category is dagger if it comes with a contravariant identity-on-objects involution functor: the **vertical reflection** of a diagram.
-It is **dagger compact** if cap is the dagger of cup.
+**Entanglement** is "*the* characteristic trait of quantum mechanics".
+![width:550px](imgs/classical-vs-quantum.png)
 
 ---
 
@@ -198,7 +238,7 @@ A symmetric category is cartesian if it has **copy and discard**.
 
 ![width:800px](imgs/cartesian-2.png)
 
-In physical terms, the last equation (again called **naturality**) is **causality**: the future cannot influence the past.
+In physical terms, the last equation (again called **naturality**) is equivalent to **causality**: the future cannot influence the past.
 
 ---
 
@@ -209,7 +249,7 @@ In physical terms, the last equation (again called **naturality**) is **causalit
 ![width:600px](imgs/no-deleting.jpg)
 
 - Abramsky, [No-cloning in categorical quantum mechanics](https://arxiv.org/abs/0910.2401) (2009)
-- Heunen & Vicary **Categories for Quantum Theory** (2019)
+- Heunen & Vicary, **Categories for Quantum Theory** (2019)
 
 ---
 
@@ -224,10 +264,8 @@ In physical terms, the last equation (again called **naturality**) is **causalit
 # Categorical no-cloning
 
 **Theorem:** $\text{compact} \ + \ \text{copy} \implies \text{(almost) trivial}$
-![width:550px](imgs/no-cloning-proof.png)
 
-**Entanglement** is "*the* characteristic trait of quantum mechanics".
-![width:550px](imgs/classical-vs-quantum.png)
+![width:1000px](imgs/no-cloning-proof.png)
 
 ---
 
@@ -315,7 +353,7 @@ $$
 \text{loss}(F_\theta(f), y)
 $$
 
-We call this **functorial learning**, a new category-theoretic approach to structured machine learning.
+We call this approach **functorial learning**, a new category-theoretic approach to structured machine learning.
 
 ---
 
