@@ -16,6 +16,6 @@ I am the main developer of [DisCoPy](https://discopy.org), the Python toolkit fo
 
 ## Contents
 
-* [Curriculum Vitae](cv/short/Alexis-TOUMI.pdf)
+* CV ([short](cv/CV-Alexis-TOUMI-short.pdf) and [long](cv/CV-Alexis-TOUMI-long.pdf))
 * [Publications](publications)
 * [News](news)

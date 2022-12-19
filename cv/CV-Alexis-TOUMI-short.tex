@@ -12,7 +12,8 @@
 
 \usepackage[style=numeric,giveninits,maxbibnames=99,sorting=ydnt]{biblatex}
 
-\addbibresource{Alexis-TOUMI.bib}
+\addbibresource{publications.bib}
+
 \defbibenvironment{bibliography}
   {\small \vspace{5pt} \list
      {\printtext[labelnumberwidth]{% label format from numeric.bbx
@@ -95,47 +96,49 @@
 \cventry{2018}{Computational Complexity}{University of Oxford}{Class Tutor}{}{}
 \cventry{2018}{Data Science with Python}{ESILV Paris}{Teaching Assistant}{}{}
 
-
 \section{\textbf{WORK EXPERIENCE}}
 
 \cventry{Oct 2022 --}{Post-doctoral researcher}
 {Laboratoire d'Informatique \& Syst\`emes}{Marseille}{}{
 Formal methods for quantum cellular automata and distributed quantum computing.
-\linebreak
 }
 
 \cventry{2019 -- }{Research Scientist}
 {Cambridge Quantum Computing}{Oxford}{part-time advisor}{
 Natural language processing on noisy intermediate-scale quantum hardware, see \cite{
 MeichanetzidisEtAl20a,
-MeichanetzidisEtAl20}.\linebreak
-Applied category theory for quantum computing and artificial intelligence, see \cite{ToumiEtAl21}.\linebreak
+MeichanetzidisEtAl20,KartsaklisEtAl21}.\linebreak
+Applied category theory for quantum computing and artificial intelligence, see \cite{ToumiEtAl21}.
 }
 
 \cventry{May--Jul 2022}{General Manager}
 {Le Lab Quantique}{Paris}{}{
 Administration of a French nonprofit that promotes the emergence of quantum technologies.
-\linebreak
 }
 
-\cventry{2017 -- 2018}{Data Scientist}{IRHT (CNRS) \& Teklia}{Paris}{}{Deep learning for the automated analysis of manuscripts from the Middle Ages, see \cite{BorosEtAl19}.\linebreak
+\cventry{2017 -- 2018}{Data Scientist}{IRHT (CNRS) \& Teklia}{Paris}{}{Deep learning for the automated analysis of manuscripts from the Middle Ages, see \cite{BorosEtAl19}.
 }
 
 \cventry{2015 -- 2016}{Machine Learning Engineer}{Tinyclues}{Paris}{Internship}{
-Tensor factorisation on complex relational data: users, products, emails, clicks and sales.\linebreak
+Tensor factorisation on complex relational data: users, products, emails, clicks and sales.
 }
 
 \cventry{2014 -- 2015}{Data Scientist}{Yonderlabs}{Berlin}{Internship}{
-Probabilistic graphical models for natural language processing and sentiment analysis.\linebreak
+Probabilistic graphical models for natural language processing and sentiment analysis.
 }
 
+\section{\textbf{SOFTWARE}}
+
+\cventry{\textbf{\href{https://discopy.org}{DisCoPy}}}{\normalfont The Python toolkit for computing with string diagrams}{main developer}{}{}{}
+
+\cventry{\textbf{\href{https://cqcl.github.io/lambeq/}{lambeq}}}{\normalfont A Python library for experimental quantum natural language processing}{author}{}{}{}
+
 \section{\textbf{LANGUAGES}}
-\cvitem{Human}{Fluent in English and French. Basic German and beginner Arabic.}
+
+\cvitem{Human}{Native French, fluent English, basic German and beginner Arabic.}
 \cvitem{Machine}{
-I am the main developer of \href{https://discopy.org}{DisCoPy}
-\cite{DisCoPy,ToumiEtAl22}, the Python library for computing with string diagrams.
-Fluent: markdown, HTML, CSS.
-Basic: Javascript, Haskell, SQL, C.\linebreak
+\emph{Fluent:} Python, \LaTeX, Markdown, HTML.
+\emph{Basic:} Javascript, Haskell, SQL, C.\linebreak
 }
 
 \nocite{*}
