@@ -137,4 +137,4 @@ permalink: /publications
 * B.Sc. University of Oxford (2015) <br>
   **Equilibrium Checking in Reactive Modules Games**
   [[pdf](https://github.com/toumix/eagle/blob/master/report.pdf)]
-  - Supervisor: [Julian Gutierrez](https://research.monash.edu/en/persons/julian-gutierrez-santiago)
+  - Supervisors: [Julian Gutierrez](https://research.monash.edu/en/persons/julian-gutierrez-santiago) and [Michael Wooldridge](https://www.cs.ox.ac.uk/people/michael.wooldridge/)
