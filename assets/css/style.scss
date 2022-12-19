@@ -3,23 +3,24 @@
 
 @import "{{ site.theme }}";
 
-#container, body, h2, footer {
+#container {
     background: none;
     background-color: black;
     text-shadow: none;
     color: white;
     font-size: 100%;
-    font-weight: normal;
+    font-weight: 300;
 }
 
 h2 {
     font-size: large;
+    color: white;
 }
 
 header h1, h1, h3, a, footer a {
     font-family: sans-serif;
     color: orange;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 footer {
