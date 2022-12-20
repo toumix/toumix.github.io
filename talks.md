@@ -47,7 +47,7 @@ permalink: /talks
 * **Discourse complexity in categorical compositional relational semantics** <br>
   IWCS (2019)
 
-* **Towards compositional distributional discourse analysis** <br>
+* **Towards compositional distributional discourse analysis** [[video](https://www.youtube.com/watch?v=u61WZKTUG1Y)] <br>
   CAPNS (2018)
 
 * **A tool for the automated verification of Nash equilibria in concurrent games** <br>
