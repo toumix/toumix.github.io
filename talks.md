@@ -64,6 +64,15 @@ permalink: /talks
   UCL, London <br>
   (2022)
 
+* **Sheaf-theoretic decision problems**, *review of a preprint by D. Mazza* [[pdf](https://www.tcs.ifi.lmu.de/research/dice-fopara2019/papers/towards-a-sheaf-theoretic-definition-of-decision-problems)] <br>
+  Samson Abramsky's Sheaf Lunch, Oxford (2019)
+
+* **Functorial translation from natural language to database queries** <br>
+  Samson Abramsky's Sheaf Lunch, Oxford (2018)
+
+* **From Sentence to Discourse in DisCoCat** <br>
+  Quantum Lunch, Oxford (2018)
+
 ## Summer schools
 
 * **Meeting the Dialogue Challenge** [[post](https://golem.ph.utexas.edu/category/2019/06/meeting_the_dialogue_challenge.html)] <br>
