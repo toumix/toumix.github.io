@@ -20,7 +20,21 @@ permalink: /publications
 
 * K. Meichanetzidis, A. Toumi, G. de Felice and B. Coecke (2020) <br>
   **Grammar-aware question-answering on quantum computers**
-  [[arXiv](https://arxiv.org/abs/2012.03756)]
+  [[arXiv](https://arxiv.org/abs/2012.03756)] <br>
+  *submitted to Quantum Machine Intelligence*
+
+## Journal articles
+
+* B. Coecke, F. Genovese, M. Lewis, D. Marsden and A. Toumi (2018) <br>
+  **Generalized relations in linguistics & cognition**
+  [[DOI](https://doi.org/10.1016/j.tcs.2018.03.008)] <br>
+  Theoretical Computer Science, volume 752, pages 104-115
+
+## Book chapters
+
+* B. Coecke, G. Felice, K. Meichanetzidis and A. Toumi (2021) <br>
+  **How to make qubits speak** [[arXiv](https://arxiv.org/abs/2107.06776)] <br>
+  Quantum Computing in the Arts and Humanities, pages 277-297
 
 ## Conference proceedings
 
@@ -110,19 +124,6 @@ permalink: /publications
   **Discourse complexity in categorical compositional relational semantics** [[pdf](https://aclanthology.org/W19-0900.pdf)] <br>
   Vector Semantics for Dialogue and Discourse (VSDD) workshop <br>
   13th International Conference on Computational Semantics (IWCS 2019)
-
-## Journal articles
-
-* B. Coecke, F. Genovese, M. Lewis, D. Marsden and A. Toumi (2018) <br>
-  **Generalized relations in linguistics & cognition**
-  [[DOI](https://doi.org/10.1016/j.tcs.2018.03.008)] <br>
-  Theoretical Computer Science, volume 752, pages 104-115
-
-## Book chapters
-
-* B. Coecke, G. Felice, K. Meichanetzidis and A. Toumi (2021) <br>
-  **How to make qubits speak** [[arXiv](https://arxiv.org/abs/2107.06776)] <br>
-  Quantum Computing in the Arts and Humanities, pages 277-297
 
 ## Theses
 
