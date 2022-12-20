@@ -11,7 +11,7 @@
 
 \newcommand{\arXiv}[1]{\normalfont{[\href{https://arxiv.org/abs/#1}{arXiv}]}}
 \newcommand{\DOI}[1]{\normalfont{[\href{https://doi.org/#1}{DOI}]}}
-\newcommand{\pdfcite}[1]{\normalfont{[\href{#1}{pdf}]}}
+\newcommand{\scite}[2]{\normalfont{[\href{#2}{#1}]}}
 
 % https://tex.stackexchange.com/questions/403179/how-to-customize-subsection-in-moderncv
 \makeatletter
@@ -65,44 +65,6 @@
 
 \vspace{20pt}
 
-\section{\textbf{EDUCATION}}
-
-\cventry{2018 -- 2022}{D.Phil. Computer Science}{University of Oxford}{}{}{
-``Category Theory for Quantum Natural Language Processing'' \arXiv{2212.06615}\\
-\emph{Supervisors:} Prof.~Bob Coecke and Dr.~Dan Marsden\\
-\emph{Examiners:} Prof.~Sam Staton (internal) and Prof.~Dr.~Michael Moortgat (Utrecht University)\\
-\emph{Defended on:} May 27th, 2022.
-}
-
-\cventry{2016 -- 2018}{M.Sc. Mathematics \& Computer Science}{University of Oxford}{}{Distinction}{
-``Categorical Compositional Distributional Questions, Answers \& Discourse Analysis''
-\pdfcite{http://www.cs.ox.ac.uk/people/bob.coecke/AlexisMSc.pdf}\\
-\emph{Supervisor:} Prof.~Bob Coecke
-}
-
-\cventry{2012 -- 2015}{B.Sc. Computer Science}{University of Oxford}{}{First-Class Honours}{
-``Equilibrium Checking in Reactive Modules Games''
-\pdfcite{https://github.com/toumix/eagle/blob/master/report.pdf}\\
-\emph{Supervisors:} Prof.~Michael Wooldridge and Dr.~Julian Gutierrez
-}
-
-\cventry{2012}{Option Internationale du Baccalauréat}{British section, Lycée International de Saint-Germain-en-Laye}{série scientifique, option mathématiques}{mention très bien}{}
-
-\section{\textbf{AWARDS}}
-
-\cventry{2018}{Oxford -- DeepMind Graduate Scholarship in Computer Science}{}{}{}{}
-\cventry{2018}{Wolfson Harrison UK Research Council Quantum Foundation Scholarship}{}{}{}{}
-\cventry{2013}{New College Academic Scholarship}{}{}{}{}
-
-
-\section{\textbf{TEACHING}}
-
-\cventry{2019}{Quantum Computer Science}{M.Sc.}{University of Oxford}{class tutor}{}
-\cventry{2019}{Logic \& Proof}{B.Sc.}{University of Oxford}{class tutor}{}
-\cventry{2019}{Computational Complexity}{B.Sc.}{St Anne's College}{private tutor}{}
-\cventry{2018}{Computational Complexity}{B.Sc.}{University of Oxford}{class tutor}{}
-\cventry{2018}{Data Science with Python}{Master 1}{ESILV Paris}{chargé de TD}{}
-
 \section{\textbf{WORK EXPERIENCE}}
 
 \cventry{Oct 2022 --}{Post-doctoral researcher}
@@ -130,21 +92,53 @@ Tensor factorisation on complex relational data: users, products, emails, clicks
 }
 
 \cventry{2014 -- 2015}{Data Science Intern}{Yonderlabs}{Berlin}{}{
-Probabilistic graphical models for natural language processing and sentiment analysis.
+Probabilistic graphical models for natural language processing and sentiment analysis.\\
+}
+
+\section{\textbf{EDUCATION}}
+
+\cventry{2018 -- 2022}{D.Phil. Computer Science}{}{University of Oxford}{}{
+``Category Theory for Quantum Natural Language Processing'' \arXiv{2212.06615}\\
+\emph{Supervisors:} Prof.~Bob Coecke and Dr.~Dan Marsden, \emph{Defended on:} May 27th, 2022.\\
+\emph{Examiners:} Prof.~Sam Staton (internal) and Prof.~Dr.~Michael Moortgat (Utrecht University)
+}
+
+\cventry{2016 -- 2018}{M.Sc. Mathematics \& Computer Science}{distinction}{University of Oxford}{}{
+``Categorical Compositional Distributional Questions, Answers \& Discourse Analysis''
+\scite{pdf}{http://www.cs.ox.ac.uk/people/bob.coecke/AlexisMSc.pdf}\\
+\emph{Supervisor:} Prof.~Bob Coecke
+}
+
+\cventry{2012 -- 2015}{B.Sc. Computer Science}{first-class honours}{University of Oxford}{}{
+``Equilibrium Checking in Reactive Modules Games''
+\scite{pdf}{https://github.com/toumix/eagle/blob/master/report.pdf}\\
+\emph{Supervisors:} Prof.~Michael Wooldridge and Dr.~Julian Gutierrez
+}
+
+\cventry{2012}{Option Internationale du Baccalauréat}{série scientifique, mention très bien}{British section, Lycée International de Saint-Germain-en-Laye}{}{
+}
+
+\section{\textbf{SCHOLARSHIPS}}
+
+\cventry{2018}{Oxford -- DeepMind Graduate Scholarship in Computer Science}{}{}{}{}
+\cventry{2018}{Wolfson Harrison UK Research Council Quantum Foundation Scholarship}{}{}{}{}
+\cventry{2013}{University of Oxford, New College Academic Scholarship}{}{}{}{
+}
+
+\section{\textbf{TEACHING}}
+
+\cventry{2019}{Quantum Computer Science}{M.Sc.}{University of Oxford \emph{(class tutor)}}{}{}
+\cventry{2019}{Logic \& Proof}{B.Sc.}{University of Oxford \emph{(class tutor)}}{}{}
+\cventry{2019}{Computational Complexity}{B.Sc.}{St Anne's College \emph{(private tutor)}}{}{}
+\cventry{2018}{Computational Complexity}{B.Sc.}{University of Oxford \emph{(class tutor)}}{}{}
+\cventry{2018}{Data Science with Python}{Master 1}{ESILV Paris \emph{(chargé de TD)}}{}{
 }
 
 \section{\textbf{SOFTWARE}}
 
-\cventry{\textbf{\href{https://discopy.org}{DisCoPy}}}{\normalfont The Python toolkit for computing with string diagrams}{main developer}{}{}{}
+\cventry{\textbf{\href{https://discopy.org}{DisCoPy}}}{\normalfont The Python toolkit for computing with string diagrams \emph{(main developer)}}{}{}{}{}
 
-\cventry{\textbf{\href{https://cqcl.github.io/lambeq/}{lambeq}}}{\normalfont A Python library for experimental quantum natural language processing}{author}{}{}{}
-
-\section{\textbf{LANGUAGES}}
-
-\cvitem{Human}{Native French, fluent English, basic German and beginner Arabic.}
-\cvitem{Machine}{
-\emph{Fluent:} Python, \LaTeX, Markdown, HTML.
-\emph{Basic:} Javascript, Haskell, SQL, C.\linebreak
+\cventry{\textbf{\href{https://cqcl.github.io/lambeq/}{lambeq}}}{\normalfont A Python library for experimental quantum natural language processing \emph{(advisor)}}{}{}{}{
 }
 
 \section{\textbf{PUBLICATIONS}}
@@ -159,8 +153,22 @@ Probabilistic graphical models for natural language processing and sentiment ana
 \emph{with B. Coecke, G. de Felice and K. Meichanetzidis.}
 }
 
-\cventry{2020}{Grammar-aware question-answering on quantum computers \arXiv{2012.03755}}{}{}{}{
-\emph{with K. Meichanetzidis, G. de Felice and B. Coecke.}
+\cventry{2020}{Grammar-aware question-answering on quantum computers \arXiv{2012.03756}}{}{}{}{
+\emph{with K. Meichanetzidis, G. de Felice and B. Coecke.}\\
+}
+
+\mysubsection{Journal articles}
+
+\cventry{2018}{Generalized relations in linguistics \& cognition \DOI{10.1016/j.tcs.2018.03.008}}{}{}{}{
+\emph{with B. Coecke, F. Genovese, M. Lewis and D. Marsden.}\\
+Theoretical Computer Science, volume 752, pages 104-115\\
+}
+
+\mysubsection{Book chapters}
+
+\cventry{2021}{How to make qubits speak \arXiv{2107.06776}}{}{}{}{
+\emph{with B. Coecke, G. Felice and K. Meichanetzidis.}\\
+Quantum Computing in the Arts and Humanities, pages 277-297\\
 }
 
 \mysubsection{Conference proceedings}
@@ -175,11 +183,11 @@ Probabilistic graphical models for natural language processing and sentiment ana
 
 \cventry{2020}{DisCoPy: monoidal categories in Python \arXiv{2005.02975}}{}{}{}{
 \emph{with G. De Felice and B. Coecke.}\\
-3rd annual international Applied Category Theory Conference (ACT 2020)}
+3rd International Conference on Applied Category Theory (ACT 2020)}
 
 \cventry{2020}{Functorial language games for question answering \arXiv{2005.09439}}{}{}{}{
 \emph{with G. de Felice, E. Di Lavore and M. Román.}\\
-3rd annual international Applied Category Theory Conference (ACT 2020)}
+3rd International Conference on Applied Category Theory (ACT 2020)}
 
 \cventry{2019}{Functorial question answering \arXiv{1905.07408}}{}{}{}{
 \emph{with G. de Felice and K. Meichanetzidis.}\\
@@ -199,7 +207,8 @@ Thirtieth AAAI Conference on Artificial Intelligence (AAAI 2016)}
 
 \cventry{2015}{A tool for the automated verification of Nash equilibria in concurrent games \DOI{10.1007/978-3-319-25150-9\_34}}{}{}{}{
 \emph{with J. Gutierrez and M. Wooldridge.}\\
-12th International Colloquium on Theoretical Aspects of Computing (ICTAC 2015)}
+12th International Colloquium on Theoretical Aspects of Computing (ICTAC 2015)\\
+}
 
 \mysubsection{Conference abstracts}
 
@@ -207,11 +216,11 @@ Thirtieth AAAI Conference on Artificial Intelligence (AAAI 2016)}
 \emph{with G. de Felice and R. Yeung.}\\
 19th International Conference on Quantum Physics and Logic (QPL 2022)}
 
-\cventry{2022}{Quantum NLP with lambeq \pdfcite{https://msp.cis.strath.ac.uk/act2022/papers/ACT2022_paper_7003.pdf}}{}{}{}{
+\cventry{2022}{Quantum NLP with lambeq \scite{pdf}{https://msp.cis.strath.ac.uk/act2022/papers/ACT2022_paper_7003.pdf}}{}{}{}{
 \emph{with D. Kartsaklis, I. Fan, R. Yeung, T. Hoffmann, V. Kocijan, C. London, A. Pearson, R. Lorenz, G. de Felice, K. Meichanetzidis, S. Clark and B. Coecke.}\\
 5th International Conference on Applied Category Theory (ACT2022)}
 
-\cventry{2021}{QNLP: Compositional Models of Meaning on a Quantum Computer \pdfcite{https://www.cl.cam.ac.uk/events/act2021/papers/ACT_2021_paper_39.pdf}}{}{}{}{
+\cventry{2021}{QNLP: Compositional Models of Meaning on a Quantum Computer \scite{pdf}{https://www.cl.cam.ac.uk/events/act2021/papers/ACT_2021_paper_39.pdf}}{}{}{}{
 \emph{with K. Meichanetzidis, R. Lorenz, A. Pearson, G. de Felice, D. Kartsaklis and B. Coecke.}\\
 4th International Conference on Applied Category Theory (ACT 2021)}
 
@@ -223,7 +232,7 @@ Thirtieth AAAI Conference on Artificial Intelligence (AAAI 2016)}
 \emph{with A. Koziell-Pipe.}\\
 4th International Conference on Applied Category Theory (ACT 2021)}
 
-\cventry{2020}{Quantum natural language processing \pdfcite{http://www.cs.ox.ac.uk/people/bob.coecke/QNLP-ACT.pdf}}{}{}{}{
+\cventry{2020}{Quantum natural language processing \scite{pdf}{http://www.cs.ox.ac.uk/people/bob.coecke/QNLP-ACT.pdf}}{}{}{}{
 \emph{with K. Meichanetzidis, S. Gogioso, G. De Felice, N. Chiappori and B. Coecke.}\\
 3rd International Conference on Applied Category Theory (ACT 2020)}
 
@@ -232,21 +241,109 @@ Thirtieth AAAI Conference on Artificial Intelligence (AAAI 2016)}
 Sixth Symposium on Compositional Structures (SYCO 6)}
 
 \cventry{2019}{Discourse complexity in categorical compositional
-relational semantics \pdfcite{https://aclanthology.org/W19-0900.pdf}}{}{}{}{
+relational semantics \scite{pdf}{https://aclanthology.org/W19-0900.pdf}}{}{}{}{
 Vector Semantics for Dialogue and Discourse (VSDD) workshop\\
-13th International Conference on Computational Semantics (IWCS 2019)
+13th International Conference on Computational Semantics (IWCS 2019)\\
 }
 
-\mysubsection{Journal articles}
+\section{\textbf{TALKS}}
 
-\cventry{2018}{Generalized relations in linguistics \& cognition \DOI{10.1016/j.tcs.2018.03.008}}{}{}{}{
-\emph{with B. Coecke, F. Genovese, M. Lewis and D. Marsden.}\\
-Theoretical Computer Science, volume 752, pages 104-115}
 
-\mysubsection{Book chapters}
+\mysubsection{Invited lectures}
 
-\cventry{2021}{How to make qubits speak \arXiv{2107.06776}}{}{}{}{
-\emph{with B. Coecke, G. Felice and K. Meichanetzidis.}\\
-Quantum Computing in the Arts and Humanities, pages 277-297}
+\cventry{TallCat, 2021}{Categories for Linguistics
+\scite{notes}{https://docs.discopy.org/en/main/notebooks/21-05-03-tallcat.html}}{with Giovanni de Felice}{}{}{}
+
+\cventry{TallCat, 2021}{Categories for Quantum
+\scite{notes}{https://docs.discopy.org/en/main/notebooks/21-05-05-tallcat.html}}{with Giovanni de Felice}{}{}{
+}
+
+\mysubsection{Software demonstrations}
+
+\cventry{QNLP 2022}{DisCoPy: Distributional Compositional Python
+\scite{video}{https://www.youtube.com/watch?v=P7nZHX0xhAI}}{}{}{}{}{}
+
+\cventry{PyData 2020}{Language Processing on Quantum Hardware
+\scite{video}{https://www.youtube.com/watch?v=5jK8qEQvR-o}}{}{}{}{}{}
+
+\cventry{QNLP 2020}{QNLP implementations
+\scite{video}{https://www.youtube.com/watch?v=5jK8qEQvR-o}}{with Konstantinos Meichanetzidis}{}{}{}{}
+
+\cventry{QNLP 2019}{Towards NLP on Quantum Hardware
+\scite{video}{https://www.youtube.com/watch?v=3UKqpL7Z0Uc}}{}{}{}{
+}
+
+\mysubsection{Conference presentations}
+
+\cventry{QPL 2021}{Diagrammatic Differentiation for Quantum Machine Learning
+\scite{video}{https://www.youtube.com/watch?v=HOB3r44-pGw}}{}{}{}{}
+
+\cventry{ACT 2020}{DisCoPy: monoidal categories in Python
+\scite{video}{https://www.youtube.com/watch?v=kPar2nQVFnY}}{}{}{}{}
+
+\cventry{ACT 2019}{Functorial question answering}{}{}{}{}
+
+\cventry{IWCS 2019}{Discourse complexity in categorical compositional relational semantics}{}{}{}{}
+
+\cventry{CAPNS 2018}{Towards compositional distributional discourse analysis}{}{}{}{}
+
+\cventry{ICTAC 2015}{A tool for the automated verification of Nash equilibria in concurrent games}{}{}{}{
+}
+
+\mysubsection{Seminars}
+
+\cventry{2022}{Category theory for quantum natural language processing
+\scite{slides}{https://alexis.toumi.xyz/slides/22-11-29-CT-for-QNLP.html}}{}{}{}{
+LIS, Marseille\\
+JIQ, Paris\\
+QuaCS, Gif-sur-Yvette\\
+Quandela, Massy\\
+Quantinuum, Cambridge\\
+UCL, London\\
+}
+
+\mysubsection{Summer schools}
+
+\cventry{ACT 2019}{Meeting the Dialogue Challenge \scite{post}{https://golem.ph.utexas.edu/category/2019/06/meeting_the_dialogue_challenge.html}}{with Dan Shiebler}{}{}{}
+
+\cventry{L'agape 2017}{Quantum structures in cognition and natural language}{}{}{}{
+}
+
+\section{\textbf{DIFFUSION \& SCIENTIFIC MEDIATION}}
+
+\mysubsection{Blogs}
+
+\cventry{2022}{What are quantum computers good for? \scite{post}{https://medium.com/le-lab-quantique/what-are-quantum-computers-good-for-a7fa451969f}}{}{in Le Lab Quantique}{}{}
+
+\cventry{2021}{Quantum Natural Language Processing II
+\scite{post}{https://medium.com/cambridge-quantum-computing/quantum-natural-language-processing-ii-6b6a44b319b2}}{with
+Dimitri Kartsaklis, Ian Fan, Richie Yeung, Anna Pearson, Robin Lorenz, Giovanni de Felice, Konstantinos Meichanetzidis, Stephen Clark and Bob Coecke}{}{}{}
+
+\cventry{2020}{Quantum Natural Language Processing \scite{post}{https://medium.com/cambridge-quantum-computing/quantum-natural-language-processing-748d6f27b31d}}{with Bob Coecke, Giovanni de Felice and Konstantinos Meichanetzidis}{}{}{
+}
+
+\mysubsection{Hackathons}
+
+I supervised teams of students working on the following projects.\\
+
+\cventry{2022}{QNLP for adverse event detection in the healthcare industry \scite{abstract}{https://qnlp.cambridgequantum.com/conf2022/\#kevin}}{}{Technical University of Munich and IT Healthcare Innovation Incubator, Merck KGaA}{}{}{}
+
+\cventry{2021}{QNLP for sentiment analysis \scite{GitHub}{https://github.com/PaulaGarciaMolina/QNLP_Qiskit_Hackathon}}{}{ Qiskit Hackathon Europe}{}{}{}
+
+\cventry{2021}{Discovering QNLP through DisCoPy}{}{BIG Quantum Hackathon by QuantX}{}{
+}
+
+\section{\textbf{LANGUAGES}}
+
+\cvitem{Human}{Native French, fluent English, basic German and beginner Arabic.}
+\cvitem{Machine}{
+\emph{Advanced:} Python, \LaTeX, Markdown, HTML.
+\emph{Basic:} Javascript, Haskell, SQL, C.\linebreak
+}
+
+\section{\textbf{OTHER INTERESTS}}
+
+\cvitem{Philosophy}{Spinoza, Peirce, Wittgenstein, Deleuze.}
+\cvitem{Music}{10+ years of DJing, digital and analog. Techno, House, Disco, Afrobeat, Funk.}
 
 \end{document}

@@ -106,6 +106,11 @@ permalink: /publications
   [[arXiv](https://arxiv.org/abs/2001.02296)] <br>
   SYCO 6 (2019)
 
+* A. Toumi <br>
+  **Discourse complexity in categorical compositional relational semantics** [[pdf](https://aclanthology.org/W19-0900.pdf)] <br>
+  Vector Semantics for Dialogue and Discourse (VSDD) workshop <br>
+  13th International Conference on Computational Semantics (IWCS 2019)
+
 ## Journal articles
 
 * B. Coecke, F. Genovese, M. Lewis, D. Marsden and A. Toumi (2018) <br>
