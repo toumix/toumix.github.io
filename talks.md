@@ -64,6 +64,9 @@ permalink: /talks
   UCL, London <br>
   (2022)
 
+* **Pebble games for linguistic anaphora** [[slides](../slides/20-06-18-pebble-anaphora.pdf)] <br>
+  Samson Abramsky's Comonad Meetup, remote (2020)
+
 * **Sheaf-theoretic decision problems**, *review of a preprint by D. Mazza* [[pdf](https://www.tcs.ifi.lmu.de/research/dice-fopara2019/papers/towards-a-sheaf-theoretic-definition-of-decision-problems)] <br>
   Samson Abramsky's Sheaf Lunch, Oxford (2019)
 
