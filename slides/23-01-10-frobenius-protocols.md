@@ -33,10 +33,6 @@ Alexis TOUMI
 
 $$\quad$$
 
-1) String diagrams and Frobenius algebras
-2) Quantum consensus and leader election
-3) The Frobenius anatomy of linguistic anaphora
-
 ---
 
 # Boxes and signatures
@@ -301,6 +297,8 @@ Tani, Kobayashi, Matsumoto:
   with game comonads to bound the communication complexity
 
 <br>
+<br>
+
 <style scoped> p { text-align: right; }</style>
 
 **Thanks!**

@@ -8,6 +8,10 @@ permalink: /news
 
 ---
 
+## January 2023
+
+* I'm giving a talk at [LMF, Paris–Saclay](https://lmf.cnrs.fr/Seminar/Toumi23), you can find the slides [here](slides/23-01-10-frobenius-protocols.html).
+
 ## December 2022
 
 * My PhD thesis is now available on the [arXiv:2212.06615](https://arxiv.org/abs/2212.06615).
