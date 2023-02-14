@@ -55,6 +55,9 @@ permalink: /talks
 
 ## Seminars
 
+* **The Frobenius anatomy of quantum protocols** [[slides](../slides/23-01-10-frobenius-protocols.html)] <br>
+  LMF, Saclay (2023)
+
 * **Category theory for quantum natural language processing** [[slides](../slides/22-11-29-CT-for-QNLP.html)] <br>
   LIS, Marseille <br>
   JIQ, Paris <br>

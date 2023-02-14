@@ -8,10 +8,6 @@ permalink: /news
 
 ---
 
-## January 2023
-
-* I'm giving a talk at [LMF, Paris–Saclay](https://lmf.cnrs.fr/Seminar/Toumi23), you can find the slides [here](slides/23-01-10-frobenius-protocols.html).
-
 ## December 2022
 
 * My PhD thesis is now available on the [arXiv:2212.06615](https://arxiv.org/abs/2212.06615).
@@ -20,9 +16,6 @@ permalink: /news
 ## November 2022
 
 * I'm looking for an intern to work on [text summarisation with quantum natural language processing](jobs/22-11-16-qnlp-summarisation).
-* This website went from from hand-written html to [Jekyll](https://jekyllrb.com/).
-* I presented my thesis at [JIQ'22](https://qi.lip6.fr/jiq22/), the slides are available [here](slides/22-11-15-CT-for-QNLP.html).
-* I gave a longer version of the same talk in Marseille, the slides are available [here](slides/22-11-29-CT-for-QNLP.html).
 
 ## October 2022
 
@@ -30,5 +23,4 @@ permalink: /news
 
 ## May 2022
 
-* I gave a demo of DisCoPy at [QNLP 2022](https://qnlp.cambridgequantum.com/conf2022/), the recording is available [here](https://www.youtube.com/watch?v=P7nZHX0xhAI).
 * I successfully defended my D.Phil. thesis! [Sam Staton](https://www.cs.ox.ac.uk/people/samuel.staton/main.html) and [Michael Moortgat](https://www.uu.nl/medewerkers/MJMoortgat) were my examiners.
