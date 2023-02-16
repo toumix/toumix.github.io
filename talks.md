@@ -55,6 +55,9 @@ permalink: /talks
 
 ## Seminars
 
+* **Learning functors for quantum structured prediction** [[slides](../slides/23-02-16-functor-learning.html)] <br>
+  LORIA, Nancy (2023)
+
 * **The Frobenius anatomy of quantum protocols** [[slides](../slides/23-01-10-frobenius-protocols.html)] <br>
   LMF, Saclay (2023)
 
