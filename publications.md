@@ -18,12 +18,12 @@ permalink: /publications
   **Foundations for near-term quantum natural language processing**
   [[arXiv](https://arxiv.org/abs/2012.03755)]
 
-* K. Meichanetzidis, A. Toumi, G. de Felice and B. Coecke (2020) <br>
-  **Grammar-aware question-answering on quantum computers**
-  [[arXiv](https://arxiv.org/abs/2012.03756)] <br>
-  *submitted to Quantum Machine Intelligence*
-
 ## Journal articles
+
+* K. Meichanetzidis, A. Toumi, G. de Felice and B. Coecke (2023) <br>
+  **Grammar-aware sentence classification on quantum computers**
+  [[DOI](http://dx.doi.org/10.1007/s42484-023-00097-1)] <br>
+  Quantum Machine Intelligence 5, 10
 
 * B. Coecke, F. Genovese, M. Lewis, D. Marsden and A. Toumi (2018) <br>
   **Generalized relations in linguistics & cognition**
