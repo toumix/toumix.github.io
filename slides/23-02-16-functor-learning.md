@@ -16,7 +16,7 @@ img {
 section table thead th {
     background-color: black;
 }
-section table th {
+section table th, section table td {
     border: none;
 }
 </style>
@@ -171,7 +171,8 @@ Natural language **semantics** as a functor $F : \mathbf{G} \to \mathbf{Set}$, d
 
 - Coecke, Sadrzadeh & Clark, [Mathematical Foundations for a Compositional Distributional Model of Meaning](https://arxiv.org/abs/1003.4394) (2010)
 
-![height:250px](https://cqc.pythonanywhere.com/discocat/png?sentence=This%20sentence%20is%20a%20string%20diagram&size=small)
+| ![height:250px](23-02-16-functor-learning_files/grammar-is-entanglement.png) | ![height:250px](23-02-16-functor-learning_files/disco-cat.jpeg) |
+|---|---|
 
 **DisCoCat** models are functors $F : \mathbf{G} \to \mathbf{Hilb}$, unifying **Dis(tributional)** and **Co(mpositional)** semantics with **Cat(egories)**.
 
