@@ -8,22 +8,30 @@ permalink: /publications
 
 ---
 
-## Preprints
+## Theses
 
-* D. Kartsaklis, I. Fan, R. Yeung, A. Pearson, R. Lorenz, A. Toumi, G. de Felice, K. Meichanetzidis, S. Clark and B. Coecke (2021) <br>
-  **lambeq: An Efficient High-Level Python Library for Quantum NLP**
-  [[arXiv](https://arxiv.org/abs/2110.04236)]
+* D.Phil. University of Oxford (2022) <br>
+  **Category Theory for Quantum Natural Language Processing**
+  [[arXiv](https://arxiv.org/abs/2212.06615)]
+  - Supervisors: [Bob Coecke](https://en.wikipedia.org/wiki/Bob_Coecke) and [Dan Marsden](https://stringdiagram.com/)
+  - Examiners: [Sam Staton](https://www.cs.ox.ac.uk/people/samuel.staton/main.html) and [Michael Moortgat](https://www.uu.nl/medewerkers/MJMoortgat)
 
-* B. Coecke, G. de Felice, K. Meichanetzidis and A. Toumi (2020) <br>
-  **Foundations for near-term quantum natural language processing**
-  [[arXiv](https://arxiv.org/abs/2012.03755)]
+* M.Sc. University of Oxford (2018) <br>
+  **Categorical compositional distributional questions, answers & discourse analysis**
+  [[pdf](http://www.cs.ox.ac.uk/people/bob.coecke/AlexisMSc.pdf)]
+  - Supervisor: [Bob Coecke](https://en.wikipedia.org/wiki/Bob_Coecke)
+
+* B.Sc. University of Oxford (2015) <br>
+  **Equilibrium Checking in Reactive Modules Games**
+  [[pdf](https://github.com/toumix/eagle/blob/master/report.pdf)]
+  - Supervisors: [Julian Gutierrez](https://research.monash.edu/en/persons/julian-gutierrez-santiago) and [Michael Wooldridge](https://www.cs.ox.ac.uk/people/michael.wooldridge/)
 
 ## Journal articles
 
 * K. Meichanetzidis, A. Toumi, G. de Felice and B. Coecke (2023) <br>
   **Grammar-aware sentence classification on quantum computers**
   [[DOI](http://dx.doi.org/10.1007/s42484-023-00097-1)] <br>
-  Quantum Machine Intelligence 5, 10
+  Quantum Machine Intelligence, volume 5, issue 1, pages 1-16
 
 * B. Coecke, F. Genovese, M. Lewis, D. Marsden and A. Toumi (2018) <br>
   **Generalized relations in linguistics & cognition**
@@ -125,20 +133,12 @@ permalink: /publications
   Vector Semantics for Dialogue and Discourse (VSDD) workshop <br>
   13th International Conference on Computational Semantics (IWCS 2019)
 
-## Theses
+## Technical reports
 
-* D.Phil. University of Oxford (2022) <br>
-  **Category Theory for Quantum Natural Language Processing**
-  [[arXiv](https://arxiv.org/abs/2212.06615)]
-  - Supervisors: [Bob Coecke](https://en.wikipedia.org/wiki/Bob_Coecke) and [Dan Marsden](https://stringdiagram.com/)
-  - Examiners: [Sam Staton](https://www.cs.ox.ac.uk/people/samuel.staton/main.html) and [Michael Moortgat](https://www.uu.nl/medewerkers/MJMoortgat)
+* D. Kartsaklis, I. Fan, R. Yeung, A. Pearson, R. Lorenz, A. Toumi, G. de Felice, K. Meichanetzidis, S. Clark and B. Coecke (2021) <br>
+  **lambeq: An Efficient High-Level Python Library for Quantum NLP**
+  [[arXiv](https://arxiv.org/abs/2110.04236)]
 
-* M.Sc. University of Oxford (2018) <br>
-  **Categorical compositional distributional questions, answers & discourse analysis**
-  [[pdf](http://www.cs.ox.ac.uk/people/bob.coecke/AlexisMSc.pdf)]
-  - Supervisor: [Bob Coecke](https://en.wikipedia.org/wiki/Bob_Coecke)
-
-* B.Sc. University of Oxford (2015) <br>
-  **Equilibrium Checking in Reactive Modules Games**
-  [[pdf](https://github.com/toumix/eagle/blob/master/report.pdf)]
-  - Supervisors: [Julian Gutierrez](https://research.monash.edu/en/persons/julian-gutierrez-santiago) and [Michael Wooldridge](https://www.cs.ox.ac.uk/people/michael.wooldridge/)
+* B. Coecke, G. de Felice, K. Meichanetzidis and A. Toumi (2020) <br>
+  **Foundations for near-term quantum natural language processing**
+  [[arXiv](https://arxiv.org/abs/2012.03755)]
