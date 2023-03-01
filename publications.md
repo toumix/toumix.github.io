@@ -12,7 +12,7 @@ permalink: /publications
 
 * D.Phil. University of Oxford (2022) <br>
   **Category Theory for Quantum Natural Language Processing**
-  [[arXiv](https://arxiv.org/abs/2212.06615)]
+  [[DOI](http://dx.doi.org/10.5287/ora-5jrrvyg4e)]
   - Supervisors: [Bob Coecke](https://en.wikipedia.org/wiki/Bob_Coecke) and [Dan Marsden](https://stringdiagram.com/)
   - Examiners: [Sam Staton](https://www.cs.ox.ac.uk/people/samuel.staton/main.html) and [Michael Moortgat](https://www.uu.nl/medewerkers/MJMoortgat)
 
@@ -54,7 +54,7 @@ permalink: /publications
 * K. Meichanetzidis, S. Gogioso, G. De Felice, N. Chiappori, A. Toumi and B. Coecke <br>
   **Quantum natural language processing on near-term quantum computers**
   [[arXiv](https://arxiv.org/abs/2005.04147)] <br>
-  In QPL 2020.
+  QPL 2020
 
 * G. de Felice, A. Toumi and B. Coecke <br>
   **DisCoPy: monoidal categories in Python**
