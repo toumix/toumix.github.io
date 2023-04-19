@@ -17,13 +17,11 @@ img {
 
 <style scoped> * { text-align: center; }</style>
 
-# Category Theory for Quantum Natural Language Processing
+# Review: Quantum Extremal Learning
 
 $$\quad$$
 
 Alexis TOUMI
-
-29 Novembre, Marseille
 
 ---
 

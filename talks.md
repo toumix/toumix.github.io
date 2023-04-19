@@ -20,7 +20,7 @@ permalink: /talks
 
 ## Software demonstrations
 
-* **DisCoPy: Distributional Compositional Python** [[video](https://www.youtube.com/watch?v=P7nZHX0xhAI)] <br>
+* **DisCoPy: Distributional Compositional Python** [[video](https://www.youtube.com/watch?v=P7nZHX0xhAI)] [[notebook](https://github.com/discopy/discopy/blob/065e1eb91d1e706c590d5525ca480d49c149bea2/notebooks/22-05-30-QNLP.ipynb)]<br>
   QNLP (2022)
 
 * **Language Processing on Quantum Hardware** [[video](https://www.youtube.com/watch?v=5jK8qEQvR-o)] <br>
