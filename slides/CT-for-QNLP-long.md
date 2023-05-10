@@ -17,11 +17,15 @@ img {
 
 <style scoped> * { text-align: center; }</style>
 
-# Review: Quantum Extremal Learning
+# Category Theory for Quantum Natural Language Processing
 
 $$\quad$$
 
 Alexis TOUMI
+
+May 10th, 2023
+
+Knowledge Exchange, PlantingSpace
 
 ---
 
@@ -46,11 +50,9 @@ Given two signatures $\Sigma$ and $\Sigma'$,
 a **morphism** $F : \Sigma \to \Sigma'$ is a pair of maps:
 
 - $F_0 : \Sigma_0 \to (\Sigma'_0)^\star$ from wire to list of wires
-- $F_1 : \Sigma_1 \to \Sigma_1'$ from box to box
+- $F_1 : \coprod_{x, y \in \Sigma_0^\star} \Sigma_1(x, y) \to \Sigma_1'(F_0(x), F_0(y))$ from box to box.
 
-such that for all boxes $f : x \to y \in \Sigma$ in the domain we have:
-
-$$F_1(f) : F_0(x) \to F_0(y) \in \Sigma'$$
+For example, translating recipes from English to French is a morphism of signatures.
 
 ---
 
@@ -70,7 +72,9 @@ Given a signature $\Sigma$, we can define (string) diagrams $f : x \to y \in D(\
 Diagrams are subject to three axioms.
 
 - Tensor and composition are **associative** and **unital**.
-- They satisfy the following **naturality** equation.
+- They satisfy the following **interchanger** equations.
+
+$$ \text{id}(x) \otimes \text{id}(y) = \text{id}(xy) $$
 
 $$ (g \circ f) \otimes (g' \circ f') \ = \ (g \otimes g') \circ (f \otimes f') $$
 
@@ -88,7 +92,7 @@ Can't be bothered to remember the axioms for diagrams? Your visual cortex has th
 
 In physical terms, naturality means parallel processes are **spacelike-separated** events.
 
-![bg right:45%](https://raw.githubusercontent.com/oxford-quantum-group/discopy/main/docs/_static/imgs/crack-eggs.png)
+![bg right:45%](https://github.com/oxford-quantum-group/discopy/blob/202e63b94a435224056df9da2f0215d9a906eb71/test/src/imgs/crack-eggs.png?raw=true)
 
 ---
 
@@ -143,18 +147,25 @@ Formal grammars are signatures!
 A (strict monoidal) **category** $\mathbf{C}$ is a signature with three maps:
 
 $$
-\text{id} : \mathbf{C}_0^\star \to \mathbf{C}_1
+\text{id} : \coprod_{x \in \mathbf{C}_0^\star} \mathbf{C}(x, x)
 $$
 $$
-(\circ) : \mathbf{C}_1 \times \mathbf{C}_1 \to \mathbf{C}_1
-\qquad \text{and} \qquad
-(\otimes) : \mathbf{C}_1 \times \mathbf{C}_1 \to \mathbf{C}_1
+(\circ) : \coprod_{x, y, z \in \mathbf{C}_0^\star} \mathbf{C}(x, y) \times \mathbf{C}(y, z) \to \mathbf{C}(x, z)
+$$
+$$
+(\otimes) : \coprod_{x, y, x', y' \in \mathbf{C}_0^\star} \mathbf{C}(x, y) \times \mathbf{C}(x', y') \to \mathbf{C}(xx', yy')
 $$
 
-such that associativity, unitality and naturality hold. For example:
+such that associativity, unitality and naturality hold.
+
+---
+
+# Categories: examples
 
 * $\mathbf{C}_\Sigma$: wires and diagrams.
 * $\mathbf{Set}$: sets and functions (with cartesian product as tensor).
+* $\mathbf{Rel}$: sets and relations (with cartesian product as tensor).
+* $\mathbf{Stoch}$: measurable spaces and stochastic maps (with the product).
 * $\mathbf{Hilb}$: Hilbert spaces and linear maps (with the tensor product).
 
 ---
@@ -220,7 +231,7 @@ A category is symmetric if it comes with **swaps**.
 
 # Categories: compact
 
-A symmetric category is compact if it comes with **cups and caps**. ![height:200px](https://discopy.readthedocs.io/en/docs/_images/snake-equation1.png)
+A symmetric category is compact if it comes with **cups and caps**. ![height:200px](https://github.com/oxford-quantum-group/discopy/blob/main/docs/imgs/rigid/snake-equation.png?raw=true)
 
 **Entanglement** is "*the* characteristic trait of quantum mechanics".
 ![width:550px](22-11-29-CT-for-QNLP_files/classical-vs-quantum.png)
@@ -306,7 +317,7 @@ $$\quad$$
 
 We define a QNLP model as a monoidal functor $F : \mathbf{G} \to \mathbf{Circuit}$.
 
-![height:250px](https://discopy.readthedocs.io/en/main/_images/functor-example2.png)
+![height:250px](https://github.com/oxford-quantum-group/discopy/blob/main/docs/imgs/quantum/functor-example.png?raw=true)
 
 - Zeng & Coecke, **Quantum algorithms for compositional natural language processing** (2016)
 - Wiebe et al., **Quantum language processing** (2019)
@@ -318,7 +329,7 @@ We define a QNLP model as a monoidal functor $F : \mathbf{G} \to \mathbf{Circuit
 We define a QNLP model as a monoidal functor $F : \mathbf{G} \to \mathbf{Circuit}$.
 
 ```python
-from discopy import Ty, Word, Id, Cup
+from discopy.pregroup import Ty, Word, Id, Cup
 from discopy.circuit import Functor
 from discopy.quantum import qubit, Ket, H, X, CX, sqrt
 
@@ -367,6 +378,6 @@ joint work with **Richie Yeung** and **Giovanni de Felice**
 
 <style scoped> p { text-align: center; }</style>
 
-![height:350px](https://raw.githubusercontent.com/oxford-quantum-group/discopy/main/docs/_static/imgs/snake-equation.png)
+![height:350px](https://github.com/oxford-quantum-group/discopy/blob/202e63b94a435224056df9da2f0215d9a906eb71/docs/imgs/snake-equation.png?raw=true)
 
 https://www.discopy.org

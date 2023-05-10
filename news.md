@@ -8,14 +8,14 @@ permalink: /news
 
 ---
 
+## May 2023
+
+* I started a new job at [PlantingSpace](https://planting.space) where I will be working on applied category theory and natural language processing.
+
 ## December 2022
 
 * My PhD thesis is now available on the [arXiv:2212.06615](https://arxiv.org/abs/2212.06615).
 * DisCoPy v1.0 got released on [GitHub](https://github.com/discopy/discopy).
-
-## November 2022
-
-* I'm looking for an intern to work on [text summarisation with quantum natural language processing](jobs/22-11-16-qnlp-summarisation).
 
 ## October 2022
 
