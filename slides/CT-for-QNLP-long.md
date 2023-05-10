@@ -50,9 +50,7 @@ Given two signatures $\Sigma$ and $\Sigma'$,
 a **morphism** $F : \Sigma \to \Sigma'$ is a pair of maps:
 
 - $F_0 : \Sigma_0 \to (\Sigma'_0)^\star$ from wire to list of wires
-- $F_1 : \coprod_{x, y \in \Sigma_0^\star} \Sigma_1(x, y) \to \Sigma_1'(F_0(x), F_0(y))$ from box to box.
-
-For example, translating recipes from English to French is a morphism of signatures.
+- $F_1 : \prod_{x, y \in \Sigma_0^\star} \Sigma_1(x, y) \to \Sigma_1'(F_0(x), F_0(y))$ from box to box.
 
 ---
 
@@ -150,10 +148,10 @@ $$
 \text{id} : \coprod_{x \in \mathbf{C}_0^\star} \mathbf{C}(x, x)
 $$
 $$
-(\circ) : \coprod_{x, y, z \in \mathbf{C}_0^\star} \mathbf{C}(x, y) \times \mathbf{C}(y, z) \to \mathbf{C}(x, z)
+(\circ) : \prod_{x, y, z \in \mathbf{C}_0^\star} \mathbf{C}(x, y) \times \mathbf{C}(y, z) \to \mathbf{C}(x, z)
 $$
 $$
-(\otimes) : \coprod_{x, y, x', y' \in \mathbf{C}_0^\star} \mathbf{C}(x, y) \times \mathbf{C}(x', y') \to \mathbf{C}(xx', yy')
+(\otimes) : \prod_{x, y, x', y' \in \mathbf{C}_0^\star} \mathbf{C}(x, y) \times \mathbf{C}(x', y') \to \mathbf{C}(xx', yy')
 $$
 
 such that associativity, unitality and naturality hold.
