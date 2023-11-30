@@ -10,7 +10,7 @@ permalink: /news
 
 ## May 2023
 
-* I started a new job at [PlantingSpace](https://planting.space) where I will be working on applied category theory and natural language processing.
+* I started a new job at [PlantingSpace](https://planting.space) where I will be working on applied category theory for natural language processing and artificial intelligence.
 
 ## December 2022
 

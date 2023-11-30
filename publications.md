@@ -93,6 +93,11 @@ permalink: /publications
 
 ## Conference abstracts
 
+* A. Toumi, R. Yeung, B. Poór and G. de Felice <br>
+  **DisCoPy: the Hierarchy of Graphical Languages in Python**
+  [[arXiv](https://arxiv.org/abs/2311.10608)] <br>
+  QCT 2023
+
 * A. Toumi, G. de Felice and R. Yeung <br>
   **DisCoPy for the quantum computer scientist**
   [[arXiv](https://arxiv.org/abs/2205.05190)] <br>
@@ -133,7 +138,11 @@ permalink: /publications
   Vector Semantics for Dialogue and Discourse (VSDD) workshop <br>
   13th International Conference on Computational Semantics (IWCS 2019)
 
-## Technical reports
+## Preprints
+
+* A. Toumi and G. de Felice <br>
+  **Higher-Order DisCoCat (Peirce-Lambek-Montague semantics)**
+  [[arXiv](https://arxiv.org/abs/2311.17813)]
 
 * D. Kartsaklis, I. Fan, R. Yeung, A. Pearson, R. Lorenz, A. Toumi, G. de Felice, K. Meichanetzidis, S. Clark and B. Coecke (2021) <br>
   **lambeq: An Efficient High-Level Python Library for Quantum NLP**
@@ -142,3 +151,4 @@ permalink: /publications
 * B. Coecke, G. de Felice, K. Meichanetzidis and A. Toumi (2020) <br>
   **Foundations for near-term quantum natural language processing**
   [[arXiv](https://arxiv.org/abs/2012.03755)]
+
