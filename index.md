@@ -6,8 +6,7 @@ description: personal website
 
 ## Hello, world!
 
-I'm a research and development scientist at [PlantingSpace](https://planting.space)
-and scientific advisor at [Quantinuum](https://cambridgequantum.com).
+I'm a research and development scientist at [PlantingSpace](https://planting.space).
 I did my PhD in the [Oxford Quantum Group](http://www.cs.ox.ac.uk/activities/quantum/), supervised by [Bob Coecke](https://en.wikipedia.org/wiki/Bob_Coecke) and [Dan Marsden](https://stringdiagram.com/).
 
 My research interests include applied category theory, artificial intelligence and quantum computing.
