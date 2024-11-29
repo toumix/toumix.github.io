@@ -6,5 +6,4 @@
 - [![GitHub](/assets/images/github.png)](https://github.com/toumix)
 - [![Google Scholar](/assets/images/scholar.ico)](https://scholar.google.com/citations?user=mWkPOggAAAAJ)
 - [![LinkedIn](/assets/images/linkedin.png)](https://www.linkedin.com/in/alexistoumi/)
-- [![Twitter](/assets/images/twitter.png)](https://twitter.com/AlexisToumi)
 - [![Mastodon](/assets/images/mastodon.ico)](https://mathstodon.xyz/@AlexisToumi){:rel="me"}
