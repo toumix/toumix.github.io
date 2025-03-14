@@ -1,4 +1,4 @@
-## Contact [alexis@toumi.email](mailto:alexis@toumi.email)
+## Contact [alexis.toumi@pm.me](mailto:alexis.toumi@pm.me) — [alexis@toumi.email](mailto:alexis@toumi.email)
 
 {:.social}
 - [![arXiv](/assets/images/arxiv.gif)](https://arxiv.org/search/?query=Alexis+Toumi&searchtype=author)
