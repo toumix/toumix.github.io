@@ -8,6 +8,10 @@ permalink: /news
 
 ---
 
+## March 2025
+
+* I'm having some DNS issues with my email address `alexis@toumi.email`, you can contact me at `alexis.toumi@pm.me` in the mean time.
+
 ## June 2024
 
 * I was attending [ACT 2024](https://oxford24.github.io) where
