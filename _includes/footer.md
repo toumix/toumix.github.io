@@ -1,4 +1,4 @@
-{.contact}
+{:.contact}
 ## Contact
 
 [alexis.toumi@pm.me](mailto:alexis.toumi@pm.me) or [alexis@toumi.email](mailto:alexis@toumi.email)
