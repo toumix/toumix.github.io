@@ -1,8 +1,7 @@
-## Contact
-
 {:.email}
-[alexis.toumi@pm.me](mailto:alexis.toumi@pm.me) or [alexis@toumi.email](mailto:alexis@toumi.email)
+## Contact [alexis.toumi@pm.me](mailto:alexis.toumi@pm.me) or [alexis@toumi.email](mailto:alexis@toumi.email)
 
+{:.social}
 - [![arXiv](/assets/images/arxiv.gif)](https://arxiv.org/search/?query=Alexis+Toumi&searchtype=author)
 - [![ORCID](/assets/images/orcid.png)](https://orcid.org/0000-0002-7040-4532)
 - [![GitHub](/assets/images/github.png)](https://github.com/toumix)
