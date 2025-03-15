@@ -32,11 +32,11 @@ footer a:hover {
     color:#c5000c
 }
 
-.email {
+.contact + p {
     font-size: large;
 }
 
-.social a, .email {
+.social a, .contact + p {
     display: block;
     float: right;
 }
