@@ -8,9 +8,10 @@ permalink: /news
 
 ---
 
-## March 2025
+## June 2025
 
-* I'm having some DNS issues with my email address `alexis@toumi.email`, you can contact me at `alexis.toumi@pm.me` in the mean time.
+* Five years after we started working on the theory and developing the software for it, our paper on [Experimental quantum-enhanced kernel-based machine learning on a photonic processor](https://www.nature.com/articles/s41566-025-01682-5) got published in Nature Photonics.
+* I was back in Oxford to attend the alumni dinner organised for the Oxford-Google DeepMind Graduate Scholarship.
 
 ## June 2024
 

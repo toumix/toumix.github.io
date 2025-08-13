@@ -28,6 +28,11 @@ permalink: /publications
 
 ## Journal articles
 
+* Z. Yin, I. Agresti, G. de Felice, D. Brown, A. Toumi, C. Pentangelo, S. Piacentini, A. Crespi, F. Ceccarelli, R. Osellame, B. Coecke & P. Walther (2025) <br>
+  **Experimental quantum-enhanced kernel-based machine learning on a photonic processor**
+  [[DOI](https://doi.org/10.1038/s41566-025-01682-5)] <br>
+  Nature Photonics, pages 1-8
+
 * K. Meichanetzidis, A. Toumi, G. de Felice and B. Coecke (2023) <br>
   **Grammar-aware sentence classification on quantum computers**
   [[DOI](http://dx.doi.org/10.1007/s42484-023-00097-1)] <br>
