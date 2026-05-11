@@ -8,6 +8,10 @@ permalink: /news
 
 ---
 
+## May 2026
+
+* I joined [Relational Intelligence](https://rel-int.ai) as CTO and Cofounder.
+
 ## June 2025
 
 * Five years after we started working on the theory and developing the software for it, our paper on [Experimental quantum-enhanced kernel-based machine learning on a photonic processor](https://www.nature.com/articles/s41566-025-01682-5) got published in Nature Photonics.
