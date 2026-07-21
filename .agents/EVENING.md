@@ -16,7 +16,7 @@ STEPS
    base/head, review threads + reactions); dependency graph; blockers. Queues:
      - needs_alexis: open PRs where a review/decision waits on ALEXIS_GH.
      - awaiting_approval: unresolved threads on ALEXIS_GH-authored PRs with a pending change not
-       yet approved (no :rocket:, no "/code"). Keep direct comment URLs.
+       yet approved (no :rocket: and no instruction from Alexis to make it). Keep direct comment URLs.
      - expired_or_voided: approvals failing ROUTINE.md's EXPIRY or INTEGRITY checks — with links
        so Alexis can re-approve if still wanted.
      - awaiting_signoff: `claude/` branches all-`[x]` — waiting on Alexis to delete TODO.md.

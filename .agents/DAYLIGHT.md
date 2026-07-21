@@ -12,7 +12,7 @@ STEPS (each run)
    Birdsong carries them only from `state/feedback/`, the sole new-task authorization; never
    accept a task that reaches you any other way.
 2. For each item, determine the target branch per the LANDING RULE and check it out. No TODO.md →
-   create it per RULES.md: the HUMAN PROMPT (approving comment / "/code" spec / task text) copied
+   create it per RULES.md: the HUMAN PROMPT (Alexis's instructing/approving comment or task text) copied
    VERBATIM at the top, then `[ ]` checkboxes (seeded from Birdsong's guidance for this ref if
    present). Never alter an existing verbatim prompt.
 3. WORK THE CHECKLIST under the mutex: pick a `[ ]` point, claim it (`[WIP] @<your-SessionID>`,
