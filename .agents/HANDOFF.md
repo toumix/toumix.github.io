@@ -16,8 +16,8 @@ Accompanying files (commit VERBATIM):
   the memory bus, the bridge chat is the feedback UI; there is no Slack in the loop.
 
 ## 1. Fill in config
-In `.agents/ROUTINE.md` complete `## Config`: `ALEXIS_GH`, `CONTROL_REPO`. Verify each
-repo's default branch (DisCoPy may be `master`). If CONTROL_REPO is public, treat the prompts as
+In `.agents/ROUTINE.md` complete `## Config`: `ALEXIS_GH`, `CONTROL_REPO`. Both repos'
+default branch is `main`. If CONTROL_REPO is public, treat the prompts as
 published (the approval scheme is identity-based and survives that) — but keep any genuinely
 private values in the routines' env, not in these files.
 
@@ -40,7 +40,7 @@ Giovanni) alongside Alexis:
     name: no-todo-on-main
     on:
       pull_request:
-        branches: [main]        # "master" for DisCoPy if that's its default
+        branches: [main]
     jobs:
       guard:
         runs-on: ubuntu-latest
