@@ -6,8 +6,8 @@ This is [Alexis Toumi's personal website](https://alexis.toumi.xyz), a Jekyll si
 with GitHub Pages. It doubles as the CONTROL_REPO for Alexis's scheduled Claude routines
 (Birdsong, Daylight, Evening):
 
-- [.agents/](.agents/) holds the routine prompts — see
-  [HANDOFF.md](.agents/HANDOFF.md) for the design and setup checklist
+- [.agents/](.agents/) holds the routine prompts (`ROUTINE.md` + the phase files) and the
+  shared `RULES.md`
 - `state/` holds the routines' shared memory: reports and Alexis's recorded feedback
 
 Both folders are excluded from the website build in [_config.yml](_config.yml).
