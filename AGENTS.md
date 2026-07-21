@@ -1,0 +1,22 @@
+# AGENTS.md
+
+## What
+
+This is [Alexis Toumi's personal website](https://alexis.toumi.xyz), a Jekyll site published
+with GitHub Pages. It doubles as the CONTROL_REPO for Alexis's scheduled Claude routines
+(Birdsong, Daylight, Evening):
+
+- [.agents/](.agents/) holds the routine prompts (`ROUTINE.md` + the phase files) and the
+  shared `RULES.md`
+- `state/` holds the routines' shared memory: reports and Alexis's recorded feedback
+
+Both folders are excluded from the website build in [_config.yml](_config.yml).
+
+## Rules
+
+- @.agents/RULES.md binds every agent — human-run or autonomous — that writes code in
+  Alexis's repos.
+- Scheduled routines follow [ROUTINE.md](.agents/ROUTINE.md) and then their phase file
+  (`EVENING.md` / `BIRDSONG.md` / `DAYLIGHT.md`), exactly.
+- Routines push ONLY files under `state/` to this repo's default branch and NEVER edit
+  `.agents/` — rule changes are Alexis's own, made by hand.
