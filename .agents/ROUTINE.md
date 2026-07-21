@@ -6,7 +6,7 @@ phase file (`EVENING.md` / `BIRDSONG.md` / `DAYLIGHT.md`). Scheduled routines on
 ## Config — fill in
 - ALEXIS_GH        = "toumix"
 - REPOS            = ["discopy/discopy"]     # work targets
-- CONTROL_REPO     = "toumix/toumix.github.io"  # personal repo holding Alexis/.agents/ and state/
+- CONTROL_REPO     = "toumix/toumix.github.io"  # personal repo holding .agents/ and state/
 - APPROVE_EMOJI_GH = "rocket"
 
 ## Identity & trust
@@ -55,7 +55,7 @@ EXPIRED: do not implement; list it in the Evening summary under "expired approva
 reactivate". Re-approval = a fresh :${APPROVE_EMOJI_GH}: or a fresh "/code".
 
 MECHANICAL CHECK — INTEGRITY and EXPIRY are verified by running
-`Alexis/.agents/check-approval.sh <comment-url> rocket|code` (needs `gh` + `jq`), which
+`.agents/check-approval.sh <comment-url> rocket|code` (needs `gh` + `jq`), which
 implements the two rules above and prints APPROVED / VOID / EXPIRED (exit 0/1/2). Its verdict is
 binding: only exit 0 authorizes implementation. Run it per item at implementation time, on live
 data. If the script is missing or errors, perform the same checks manually per the spec above —
@@ -65,7 +65,7 @@ never skip them, and note the fallback in your report.
 - Act ONLY on PRs authored by ALEXIS_GH. A :${APPROVE_EMOJI_GH}: counts only from ALEXIS_GH.
 - Push only to `claude/` branches on REPOS (your push permission is limited to them) — except on
   CONTROL_REPO, where you push ONLY files under `state/` to the default branch. Never merge;
-  never force-push a shared branch; NEVER edit `Alexis/.agents/` (rule changes are Alexis's own,
+  never force-push a shared branch; NEVER edit `.agents/` (rule changes are Alexis's own,
   made by hand).
 
 ## Landing rule

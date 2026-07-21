@@ -7,22 +7,22 @@ autonomous pipeline whose phases are named after the board game Root's turn stru
 end.
 
 Accompanying files (commit VERBATIM):
-- `RULES.md` → the ROOT of `discopy/discopy` AND `Alexis/.agents/RULES.md` in CONTROL_REPO
+- `RULES.md` → the ROOT of `discopy/discopy` AND `.agents/RULES.md` in CONTROL_REPO
   (identical copy in both). Short and public-safe by design; each repo's root `AGENTS.md`
   references it, so every Claude Code session in either repo — yours and the routines —
   auto-loads it and the TODO.md/mutex protocol binds all of them.
-- `Alexis/.agents/{RULES,ROUTINE,EVENING,BIRDSONG,DAYLIGHT}.md` + `check-approval.sh` →
+- `.agents/{RULES,ROUTINE,EVENING,BIRDSONG,DAYLIGHT}.md` + `check-approval.sh` →
   CONTROL_REPO only. The routines also write a `state/` folder there (see ROUTINE.md) — git is
   the memory bus, the bridge chat is the feedback UI; there is no Slack in the loop.
 
 ## 1. Fill in config
-In `Alexis/.agents/ROUTINE.md` complete `## Config`: `ALEXIS_GH`, `CONTROL_REPO`. Verify each
+In `.agents/ROUTINE.md` complete `## Config`: `ALEXIS_GH`, `CONTROL_REPO`. Verify each
 repo's default branch (DisCoPy may be `master`). If CONTROL_REPO is public, treat the prompts as
 published (the approval scheme is identity-based and survives that) — but keep any genuinely
 private values in the routines' env, not in these files.
 
 ## 2. Commit the files; keep the control plane out of the website build
-If CONTROL_REPO builds a static site, exclude `Alexis/` and `state/` in the generator's config so
+If CONTROL_REPO builds a static site, exclude `.agents/` and `state/` in the generator's config so
 the agent files and memory never appear as pages. For discopy, protect the shared config with
 CODEOWNERS — it does nothing unless branch protection enables "Require review from Code Owners",
 and a sole owner who authors a PR cannot approve it, so list a second trusted owner (e.g.
@@ -76,9 +76,9 @@ A `pull_request` workflow runs the version ON THE PR BRANCH, so an agent could e
   2. A repo RULESET on discopy (Rules → Rulesets → push/branch ruleset, all branches, "restrict
      file paths" = `.github/workflows/**`, bypass = Alexis only) — also covers interactive
      sessions, which run with Alexis's full credentials rather than the PAT.
-  3. On CONTROL_REPO there is no per-path PAT permission for `Alexis/.agents/`, so a routine
+  3. On CONTROL_REPO there is no per-path PAT permission for `.agents/`, so a routine
      sharing Alexis's identity could technically edit its own rules. ROUTINE.md forbids it in
-     prose; to make it mechanical, add a push RULESET restricting `Alexis/.agents/**` with NO
+     prose; to make it mechanical, add a push RULESET restricting `.agents/**` with NO
      bypass — then even Alexis changes the rules via PR, which is the right ceremony anyway. The
      repo's tiny history is the audit trail either way.
 
@@ -100,8 +100,8 @@ Evening, archive the old one.
 THEN create Birdsong and Daylight as fresh-session routines (claude.ai or any session). Each
 routine's Instructions field is just a pointer:
 
-> Follow the repo-root `AGENTS.md`, then `<CONTROL_REPO>/Alexis/.agents/ROUTINE.md`, then
-> `<CONTROL_REPO>/Alexis/.agents/<PHASE>.md`, exactly. Do nothing they don't instruct.
+> Follow the repo-root `AGENTS.md`, then `<CONTROL_REPO>/.agents/ROUTINE.md`, then
+> `<CONTROL_REPO>/.agents/<PHASE>.md`, exactly. Do nothing they don't instruct.
 
 | Routine   | Schedule (your TZ)   | phase file    | session                  |
 |-----------|----------------------|---------------|--------------------------|
