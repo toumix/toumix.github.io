@@ -1,8 +1,8 @@
 # EVENING.md
 
-🌙 EVENING is the worker
+🌙 Evening is the worker
 - it fires overnight in a fresh session, spending the day's tokens at the cheapest hour
-- it churns the `TODO.md` lists 🌤️ DAYLIGHT built on the PRs, under the per-point mutex
+- it churns the `TODO.md` lists 🌤️ Daylight built on the PRs, under the per-point mutex
 - it implements every change Alexis approved plus the tasks he directed — never others' PRs,
   never unapproved work
 - it delegates heavy or parallel coding to worker sub-agents
@@ -32,7 +32,7 @@ STEPS (each run)
    - TODO sync: each prompt block cites its source issue's `updated_at`; on drift, refresh the
      verbatim quote and APPEND `[ ]` points — never delete or un-check without Alexis's say
    - FLAGS — anything you may not or cannot touch — are one line each on the day file's PR so
-     🐦 BIRDSONG carries them into the morning plan.
+     🐦 Birdsong carries them into the morning plan.
 6. NO report file: the record is the commits, the `[x]` points, the thread replies and the draft
    PRs. Anything blocked is annotated on its point (`[ ] … — blocked: why`).
 
