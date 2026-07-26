@@ -10,7 +10,8 @@ Follow RULES.md FIRST. Birdsong never modifies code and never talks to Alexis �
 non-interactive, and leaves 🌤️ Daylight a plan to pick up.
 
 STEPS (each run)
-1. SCAN — delegate BREADTH, read DEPTH. Spawn the cheap scanner (RULES.md "Scanning") for
+1. SCAN — delegate BREADTH, read DEPTH: spawn a cheap scanner sub-agent rather than paging the
+   repos on your own model. Ask it for
    a STRUCTURED DIGEST of REPOS, one row per open ALEXIS_GH-authored PR to this template:
    `#<num> <slug> | base←head | draft? | CI | mergeable | review-decision | unresolved-threads |
    :rocket:s | TODO.md? | issue #<n> updated_at`, plus what 🌙 Evening changed overnight (new

@@ -20,7 +20,7 @@ STEPS
    file — clear directives as NEW TASK (goal, repo, acceptance criteria). Confirm in a line
    what you recorded and where; on non-ff push, fetch+merge+retry once.
 4. BUILD the TODO lists: for each approved or directed piece of work, create or refine `TODO.md`
-   on its BRANCH_PREFIX branch — prompt verbatim on top, `[ ]` points with how-to guidance. Claim
+   on its branch — prompt verbatim on top, `[ ]` points with how-to guidance. Claim
    nothing and never touch `[WIP]`/`[x]` states: you don't work the points.
 5. AUDIT: every agent PR still matches the plan (flag drift); every request Alexis made is
    written down as a TODO point or an issue.
