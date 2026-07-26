@@ -37,3 +37,8 @@ This repo's half of the split: it becomes PROMPTS_REPO. The memory half is the p
 
 - [x] Two memory layers on the day PR: concise committed day file (long-term), verbatim quotes +
       context as PR comments (short-term, discarded at merge) — across RULES.md and the phase files
+- [x] RULES.md opens on the binding rule: Daylight is the default for every interactive session,
+      Birdsong and Evening are the explicitly-started scheduled roles
+- [x] Own GitHub account, not acting as Alexis: collaborator of the control repos, owner of none;
+      memory PRs without draft mode, prompt issues when the rules are unclear — prompt changes are
+      Alexis's own hand
