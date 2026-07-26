@@ -24,7 +24,7 @@ STEPS (each run)
 4. KEEP PRs HEALTHY — the full backlog, every run: fix any RED check you caused; update a
    `dirty` PR only when every conflict is trivial, else abort; on source-issue drift, refresh
    the verbatim quote and APPEND `[ ]` points. Anything you may not or cannot touch is FLAGGED,
-   one line on the day file's PR for 🐦 Birdsong's morning plan.
+   a one-line comment on the day PR (short-term memory) for 🐦 Birdsong's morning plan.
 5. NO report file: the record is the commits, the `[x]` points, the thread replies and the draft
    PRs. Anything blocked is annotated on its point (`[ ] … — blocked: why`).
 

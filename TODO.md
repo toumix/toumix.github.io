@@ -31,3 +31,9 @@ This repo's half of the split: it becomes PROMPTS_REPO. The memory half is the p
 > I don't see why other model providers wouldn't be able to also use the skills here move them to .agents and keep .claude to the strict minimum i.e. settings.json is fine
 
 - [x] Move the skills and the session-start hook to `.agents/`; `.claude/` keeps only `settings.json`
+
+> another point: we can use two layers of memory, long term is what gets committed to the memory repo at the end, short term is the comments on the PR itself which get discarded at the end of the process
+> the models can interact in this way e.g. each Daylight session gets to commit some user feedback with an explanation of the context *as a comment*, the goal is that the memory markdown that gets committed should be as concise as possible, we don't need the whole context every time
+
+- [x] Two memory layers on the day PR: concise committed day file (long-term), verbatim quotes +
+      context as PR comments (short-term, discarded at merge) — across RULES.md and the phase files

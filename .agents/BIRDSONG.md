@@ -17,9 +17,9 @@ STEPS (each run)
    commits, `[x]` points), open issues, blockers. Ask the scanner to attach tiny load-bearing
    files — `TODO.md`s and issue bodies — RAW, not summarized. Read the digest; directly read only
    a bounded handful of those small files when a point hinges on their exact text.
-2. READ MEMORY: MEMORY_REPO's newest `daylight/<date>.md` across main AND any open memory PR (both
-   trusted) — last cycle's plan plus the feedback Daylight appended through the day. Trust the
-   record over your own recollection.
+2. READ MEMORY: MEMORY_REPO's newest `daylight/<date>.md` across main AND any open memory PR —
+   last cycle's plan plus Daylight's distilled feedback — and the open day PR's comments for the
+   short-term context. Trust the record over your own recollection.
 3. THINK HARD, from the digest: what landed, what's blocked, what Alexis must decide, longer-term
    direction. Curate to a handful of points. Default to the repo plan; turn the deep-think to
    meta-analysis of the agentic pipeline itself when the cycle surfaced friction, filing any issue
