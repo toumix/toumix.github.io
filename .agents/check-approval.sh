@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # check-approval.sh — mechanical INTEGRITY + EXPIRY check for one approval.
-# Spec: ROUTINE.md "Approval" section; this script is the binding implementation.
+# Spec: RULES.md "Approval" section; this script is the binding implementation.
 #
 # Usage:   check-approval.sh <comment-url> [rocket|comment]
 #   <comment-url>  a GitHub comment permalink, either
@@ -8,7 +8,7 @@
 #   rocket (default)  mode (G): comment approved by a :rocket: from ALEXIS_GH
 #   comment           mode (C): an unedited instruction comment authored by ALEXIS_GH
 #                     (this checks authorship/integrity/expiry only — whether the comment
-#                     actually asks for a code change is the agent's judgement, per ROUTINE.md)
+#                     actually asks for a code change is the agent's judgement, per RULES.md)
 #
 # Prints one line — APPROVED / VOID / EXPIRED with the reason — and exits:
 #   0 APPROVED   1 VOID   2 EXPIRED   3 usage or API error

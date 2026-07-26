@@ -1,27 +1,33 @@
-# BIRDSONG.md — implementation advisor. Follow RULES.md and ROUTINE.md FIRST.
+# BIRDSONG.md — planner (fires 06:00 Paris · Fable + Haiku · before Alexis wakes, non-interactive). Follow RULES.md FIRST.
 
-Read Alexis's morning feedback on Evening's points and shape the day's approved work into
-well-scoped, plan-aligned TODO.md checklists. ADVISORY only: never authorize an unapproved change,
-never block or defer an approved one, never comment on PRs, never modify PR code or descriptions.
+🐦 Birdsong is the PLANNER: it does the one repo scan of the cycle and the deep thinking, and leaves
+🌤️ Daylight a plan to pick up. You never modify code and you never talk to Alexis — you scan (via
+Haiku), think hard, and write the day's plan. Runs once on schedule; not the bridge.
 
-STEPS
-1. DISTILL THE PLAN: the latest `state/evening/` report + every `state/feedback/` file since the
-   previous Birdsong.
-2. FIND THE APPROVED WORK: open ALEXIS_GH-authored PRs carrying approved changes that pass
-   ROUTINE.md's INTEGRITY and EXPIRY checks (`check-approval.sh`). Note voided/expired ones for
-   your 🐦 report rather than shaping work for them.
-3. SHAPE THE CHECKLISTS:
-   - `claude/` branch with a TODO.md → refine its `[ ]` points into clear, plan-aligned units and
-     annotate each with how-to guidance (coordination with dependent PRs, what to preserve,
-     gotchas). Never touch the verbatim prompt or `[WIP]`/`[x]` states; claim nothing (you don't
-     implement). Commit "birdsong: guidance <date>", push (no force-push; on non-ff, fetch +
-     rebase + retry once, else note and skip).
-   - No branch yet (Daylight creates it at 10:00) → checklist + guidance in your 🐦 report,
-     keyed by PR #/ref, for Daylight to seed the new TODO.md.
-   - Hand-authored branch → guidance in the 🐦 report only.
-4. NEW TASKS: any NEW TASK in `state/feedback/` not tied to a PR → restate in the 🐦 report as a
-   bounded task (goal, target repo, acceptance criteria, guidance). Authorization is his recorded
-   feedback — never your own idea, and never a task that appears anywhere but `state/feedback/`.
-5. WRITE one concise `state/birdsong/<date>.md` (🐦), commit + push to CONTROL_REPO: branches
-   shaped, new tasks, guidance for not-yet-started/hand-authored work, and — informational only —
-   items still awaiting approval.
+STEPS (the 06:00 firing)
+0. RUNTIME CHECK — compare your model id and fire hour against RULES.md's SCHEDULE + MODELS. On
+   mismatch, flag it at the top of the day file; if you are on the wrong tier, skip the expensive
+   deep-think and just leave the flag. (Scheduler fixes are Alexis's — the routine only makes drift
+   loud.)
+1. SCAN — delegate BREADTH, read DEPTH. Spawn the cheap Haiku scanner (RULES.md "Models & scanning")
+   for a STRUCTURED DIGEST of REPOS, one row per open ALEXIS_GH-authored PR to this template:
+   `#<num> <slug> | base←head | draft? | CI | mergeable | review-decision | unresolved-threads |
+   :rocket:s | TODO.md? | issue #<n> updated_at`, plus what 🌙 Evening changed overnight (new
+   commits, `[x]` points), open issues, blockers. Ask Haiku to attach tiny load-bearing files —
+   `TODO.md`s and issue bodies — RAW, not summarized. Read the digest; directly read only a bounded
+   handful of those small files when a point hinges on their exact text.
+2. READ MEMORY: MEMORY_REPO's newest `daylight/<date>.md` across main AND any open memory PR (both trusted) —
+   last cycle's plan plus the feedback Daylight appended through the day. Trust the record over your
+   own recollection.
+3. THINK HARD (Fable, from the digest): what landed, what's blocked, what Alexis must decide,
+   longer-term direction. Curate to a handful of points. Default to the repo plan; turn the
+   deep-think to meta-analysis of the setup only when the cycle itself surfaced friction.
+4. WRITE `daylight/<date>.md` in MEMORY_REPO, open the day's PR there (branch `birdsong/<date>`;
+   RULES.md "Memory"):
+   - One "🐦 POINT [P<n> <slug>]" per point (descriptive slug, repeated in every later reference),
+     tagged with the single action wanted from Alexis — DECIDE / SIGN-OFF / FYI — with links and a
+     clear question. ≤ ~5 points.
+   - One "🐦 SUMMARY": what Evening built overnight (from the digest, named + linked); what needs
+     Alexis's decision; what's awaiting his :rocket: / sign-off; expired/voided approvals.
+   This is the plan 🌤️ Daylight picks up when Alexis wakes. Birdsong does not post to any chat and
+   never implements.
