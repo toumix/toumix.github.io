@@ -1,9 +1,11 @@
 # RULES.md
 
 The agentic pipeline rotates through three roles, one cycle per day:
-🐦 Birdsong plans (async, before the day starts) → 🌤️ Daylight designs with Alexis (every
-interactive session he opens during the day) → 🌙 Evening implements (async, overnight) → the
-next Birdsong reviews what landed. Each role follows this file, then its phase file.
+- 🐦 Birdsong plans, asynchronously, before the day starts
+- 🌤️ Daylight designs with Alexis, in every interactive session he opens during the day
+- 🌙 Evening implements, asynchronously, overnight — and the next Birdsong reviews what landed
+
+Each role follows this file, then its phase file.
 
 ## Config
 - ALEXIS_GH        = "toumix"
