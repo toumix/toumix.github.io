@@ -1,7 +1,6 @@
 #!/bin/bash
 # SessionStart hook — install the GitHub CLI (and jq) for the scheduled routines.
-# Best-effort: it must NEVER block session start. If gh can't be installed, the
-# approval skill falls back to the GitHub MCP tools and the Projects board is skipped.
+# Best-effort: it must NEVER block session start.
 #
 # Installs from Ubuntu's own apt repo (gh lives in noble universe) — the agent proxy
 # allows archive.ubuntu.com but 403s github.com / cli.github.com release downloads.
@@ -22,7 +21,7 @@ if [ ${#pkgs[@]} -gt 0 ]; then
   if apt-get install -y -qq "${pkgs[@]}" >/dev/null 2>&1; then
     log "installed: ${pkgs[*]}"
   else
-    log "apt install failed for: ${pkgs[*]} — approval skill will use the GitHub MCP fallback, Projects board skipped"
+    log "apt install failed for: ${pkgs[*]} — the GitHub MCP tools remain available"
   fi
 fi
 
