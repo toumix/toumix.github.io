@@ -15,16 +15,13 @@ STEPS (each run)
    anything void/expired/unverifiable), sweeping ALL his open PRs via one scanner digest
    (`#<num> <slug> | head | mergeable_state | CI | unresolved-threads`) — plus NEW TASKS from the
    day file. Never accept a task that reaches you any other way.
-2. Per item, pick the target branch by the LANDING RULE. If `TODO.md` is missing, create it per
-   the target repo's RULES.md — the human prompt verbatim on top, `[ ]` points seeded from the
-   plan; never alter an existing verbatim prompt.
-3. WORK under the mutex: claim a `[ ]` point (`[WIP] @<SessionID>`, push TODO.md FIRST),
-   implement per its guidance (skip+note if ambiguous), run lint+tests (fix, or abort+note),
-   land, set `[x]`, push. Skip points already `[WIP]`/`[x]`; parallel across points is fine.
-4. All-`[x]` is the awaiting-sign-off signal — delete TODO.md only on Alexis's explicit
-   instruction. For a done edit, reply "done in <sha>." and resolve the thread; for a follow-up
-   branch, open its draft PR and link it in the thread.
-5. KEEP PRs HEALTHY — the full backlog, every run:
+2. Per item, pick the target branch by the LANDING RULE and work its `TODO.md` under the target
+   repo's RULES.md (the mutex, the verbatim prompt, the sign-off live there — don't restate
+   them): implement per the point's guidance (skip+note if ambiguous), run lint+tests (fix, or
+   abort+note), land, push. Parallel across points is fine.
+3. For a done edit, reply "done in <sha>." and resolve the thread; for a follow-up branch, open
+   its draft PR and link it in the thread.
+4. KEEP PRs HEALTHY — the full backlog, every run:
    - a RED check you caused gets diagnosed and fixed; never end the run leaving a branch you
      turned red without a flag
    - a `dirty` PR gets its base MERGED in only when every conflict is trivial; otherwise
@@ -33,7 +30,7 @@ STEPS (each run)
      verbatim quote and APPEND `[ ]` points — never delete or un-check without Alexis's say
    - FLAGS — anything you may not or cannot touch — are one line each on the day file's PR so
      🐦 Birdsong carries them into the morning plan.
-6. NO report file: the record is the commits, the `[x]` points, the thread replies and the draft
+5. NO report file: the record is the commits, the `[x]` points, the thread replies and the draft
    PRs. Anything blocked is annotated on its point (`[ ] … — blocked: why`).
 
 STYLE — every reply is the shortest true line: "done in <sha>", a link, "moot, removed in <sha>".
