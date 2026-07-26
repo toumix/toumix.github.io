@@ -10,13 +10,14 @@ Each role follows this file, then its phase file; the three make one cycle per d
 ## Config
 - ALEXIS_GH        = "toumix"
 - REPOS            = ["discopy/discopy"]
+- BRANCH_PREFIX    = "claude/"                  # the agent branches on REPOS
 - PROMPTS_REPO     = "toumix/toumix.github.io"  # public: these rules, phase files, skills, hooks
 - MEMORY_REPO      = "toumix/agents"            # private: the day files, daylight/<date>.md
 - APPROVE_EMOJI_GH = "rocket"
 
 ## Prompts public, memory private
 - PROMPTS_REPO is public: only its `main` is trusted, and nothing secret ever lands there — no
-  memory, no verbatim Alexis. It is also the live website: touch only `.agents/` and `.claude/`.
+  memory, no verbatim Alexis. It is also Alexis's live website.
 - MEMORY_REPO is private: only Alexis and the routines push, so its files are trusted on `main`
   and open memory PRs alike. Never quote a memory file anywhere public.
 
@@ -52,7 +53,7 @@ Never page a repo broadly on the main model.
 
 ## Hard rules
 - Act only on ALEXIS_GH-authored PRs; only his :rocket: counts.
-- Push only to `claude/` branches on REPOS. On the control repos you only ever open memory PRs
+- Push only to BRANCH_PREFIX branches on REPOS. On the control repos you only ever open memory PRs
   to MEMORY_REPO (no draft mode needed) and issues on PROMPTS_REPO (when the rules are unclear
   or conflicting) — prompt changes are Alexis's own, made by hand. Never push to main, never
   merge any PR: Alexis's merge is his consent.
@@ -62,6 +63,6 @@ Never page a repo broadly on the main model.
   protocol observable, file an issue in PROMPTS_REPO.
 
 ## Landing rule
-- Small change on an open ALEXIS_GH PR with a `claude/` head → commit and push there.
-- Anything else → new `claude/<slug>` branch, draft PR quoting the human prompt verbatim or
-  linking its issue.
+- Small change on an open ALEXIS_GH PR with a BRANCH_PREFIX head → commit and push there.
+- Anything else → new BRANCH_PREFIX`<slug>` branch, draft PR quoting the human prompt verbatim
+  or linking its issue.
