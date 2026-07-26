@@ -11,7 +11,7 @@ Each role follows this file, then its phase file; the three make one cycle per d
 - USER          = "toumix"
 - REPOS         = ["discopy/discopy"]
 - PROMPTS_REPO  = "toumix/toumix.github.io"  # public: this file and the phase files
-- MEMORY_REPO   = "toumix/agents"            # private: the day files, daylight/<date>.md
+- MEMORY_REPO   = "toumix/memory"            # private: the day files, daylight/<date>.md
 - APPROVE_EMOJI = "rocket"
 
 ## Prompts public, memory private
