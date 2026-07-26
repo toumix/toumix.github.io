@@ -18,3 +18,12 @@ This repo's half of the split: it becomes PROMPTS_REPO. The memory half is the p
       memory or verbatim Alexis ever lands here
 - [x] Move `state/` (the 26-07-21 bootstrap memory) out to `toumix/agents`
 - [x] Update `AGENTS.md` and the Jekyll `exclude:` list
+
+> ok the rules have just blown up to a human unreadable level and it pollutes my context, let's cut things down
+> one thing I want to change: DAYLIGHT should not be a special prompt that I have to keep as a pinned chat, it's the default prompt for every interactive session that I start during the day
+> i added some feedback with a description of BIRDSONG
+
+- [x] Apply the BIRDSONG review comment: "VP of Engineering", no model names or times, uncluttered
+      titles, a concise bulleted first paragraph per file
+- [x] Cut RULES.md roughly in half; the approval mechanics stay in the `approval` skill
+- [x] DAYLIGHT is the default prompt for every interactive daytime session, not a pinned chat

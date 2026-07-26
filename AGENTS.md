@@ -3,7 +3,7 @@
 ## What
 
 This is [Alexis Toumi's personal website](https://alexis.toumi.xyz), a Jekyll site published
-with GitHub Pages. It doubles as the PROMPTS_REPO of Alexis's scheduled Claude routines
+with GitHub Pages. It doubles as the PROMPTS_REPO of Alexis's Claude routines
 (Birdsong, Daylight, Evening):
 
 - [.agents/](.agents/) holds the routine prompts — `RULES.md` (the operating base) and the
@@ -19,7 +19,7 @@ the rules; the memory is private because it is Alexis's work.
 
 ## Rules
 
-- @.agents/RULES.md binds every scheduled routine; they follow it and then their phase file.
+- @.agents/RULES.md binds every routine; they follow it and then their phase file.
 - Routines NEVER push to this repo's default branch and NEVER touch anything outside `.agents/`
   and `.claude/` — the website itself is Alexis's. A prompt change lands as its own pull
   request, and only Alexis merges it: the merge is his consent.
