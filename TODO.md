@@ -27,3 +27,7 @@ This repo's half of the split: it becomes PROMPTS_REPO. The memory half is the p
       titles, a concise bulleted first paragraph per file
 - [x] Cut RULES.md roughly in half; the approval mechanics stay in the `approval` skill
 - [x] DAYLIGHT is the default prompt for every interactive daytime session, not a pinned chat
+
+> I don't see why other model providers wouldn't be able to also use the skills here move them to .agents and keep .claude to the strict minimum i.e. settings.json is fine
+
+- [x] Move the skills and the session-start hook to `.agents/`; `.claude/` keeps only `settings.json`

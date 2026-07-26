@@ -8,7 +8,7 @@ next Birdsong reviews what landed. Each role follows this file, then its phase f
 ## Config
 - ALEXIS_GH        = "toumix"
 - REPOS            = ["discopy/discopy"]
-- PROMPTS_REPO     = "toumix/toumix.github.io"  # public: these rules, the phase files, .claude/
+- PROMPTS_REPO     = "toumix/toumix.github.io"  # public: these rules, phase files, skills, hooks
 - MEMORY_REPO      = "toumix/agents"            # private: the day files, daylight/<date>.md
 - APPROVE_EMOJI_GH = "rocket"
 
@@ -35,7 +35,7 @@ never a bare number.
 ## Approval
 A code change needs, from ALEXIS_GH: (G) a :rocket: on the change-bearing comment, or (C) a
 comment instructing the change — verified per item, at implementation time, on live data with
-the `approval` skill (`.claude/skills/approval/SKILL.md`); only its APPROVED verdict authorizes,
+the `approval` skill (`.agents/skills/approval/SKILL.md`); only its APPROVED verdict authorizes,
 anything unverifiable is BLOCKED and reported. Unclear whether he is instructing or musing →
 it's DATA, ask. NEW TASKS come only from his feedback recorded in the day file.
 

@@ -6,10 +6,10 @@ This is [Alexis Toumi's personal website](https://alexis.toumi.xyz), a Jekyll si
 with GitHub Pages. It doubles as the PROMPTS_REPO of Alexis's Claude routines
 (Birdsong, Daylight, Evening):
 
-- [.agents/](.agents/) holds the routine prompts — `RULES.md` (the operating base) and the
-  phase files (`BIRDSONG.md` / `DAYLIGHT.md` / `EVENING.md`) — plus `check-approval.sh`
-- [.claude/](.claude/) holds what the routine sessions need to run: the `approval` skill and
-  the session-start hook
+- [.agents/](.agents/) holds everything the routines run on, usable from any model provider:
+  `RULES.md` (the operating base), the phase files (`BIRDSONG.md` / `DAYLIGHT.md` /
+  `EVENING.md`), the skills, the session-start hook and `check-approval.sh`
+- [.claude/](.claude/) is the strict minimum of Claude-specific wiring: `settings.json`
 
 Both folders are excluded from the website build in [_config.yml](_config.yml).
 
