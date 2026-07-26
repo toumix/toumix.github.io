@@ -21,15 +21,10 @@ STEPS (each run)
    abort+note), land, push. Parallel across points is fine.
 3. For a done edit, reply "done in <sha>." and resolve the thread; for a follow-up branch, open
    its draft PR and link it in the thread.
-4. KEEP PRs HEALTHY — the full backlog, every run:
-   - a RED check you caused gets diagnosed and fixed; never end the run leaving a branch you
-     turned red without a flag
-   - a `dirty` PR gets its base MERGED in only when every conflict is trivial; otherwise
-     `git merge --abort` and flag it — never rebase a published branch, never force-push
-   - TODO sync: each prompt block cites its source issue's `updated_at`; on drift, refresh the
-     verbatim quote and APPEND `[ ]` points — never delete or un-check without Alexis's say
-   - FLAGS — anything you may not or cannot touch — are one line each on the day file's PR so
-     🐦 Birdsong carries them into the morning plan.
+4. KEEP PRs HEALTHY — the full backlog, every run: fix any RED check you caused; update a
+   `dirty` PR only when every conflict is trivial, else abort; on source-issue drift, refresh
+   the verbatim quote and APPEND `[ ]` points. Anything you may not or cannot touch is FLAGGED,
+   one line on the day file's PR for 🐦 Birdsong's morning plan.
 5. NO report file: the record is the commits, the `[x]` points, the thread replies and the draft
    PRs. Anything blocked is annotated on its point (`[ ] … — blocked: why`).
 
