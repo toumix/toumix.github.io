@@ -42,3 +42,8 @@ This repo's half of the split: it becomes PROMPTS_REPO. The memory half is the p
 - [x] Own GitHub account, not acting as Alexis: collaborator of the control repos, owner of none;
       memory PRs without draft mode, prompt issues when the rules are unclear — prompt changes are
       Alexis's own hand
+
+> yes avoid the steps for the other models too: evening just needs to get things done and follow the rules (eg mutex) while daylight is interactive anyway so it does what the user is telling it to do live
+
+- [x] All three phase files are job descriptions now — no STEPS anywhere; Evening keeps the mutex,
+      lint+tests and the approval gate by pointing at the rules that already state them
