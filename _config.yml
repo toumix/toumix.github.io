@@ -16,6 +16,7 @@ plugins:
 
 # keep the agent control plane out of the website build
 exclude:
+- AGENTS.md
 - .agents/
 - .claude/
 - Gemfile

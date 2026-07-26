@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # check-approval.sh — mechanical INTEGRITY + EXPIRY check for one approval.
-# Spec: RULES.md "Approval" section; this script is the binding implementation.
+# Spec: AGENTS.md "Approval" section; this script is the binding implementation.
 #
 # Usage:   check-approval.sh <comment-url> [rocket|comment]
 #   <comment-url>  a GitHub comment permalink, either
 #                  .../pull/N#issuecomment-<id> or .../pull/N#discussion_r<id>
-#   rocket (default)  mode (G): comment approved by a :rocket: from ALEXIS_GH
-#   comment           mode (C): an unedited instruction comment authored by ALEXIS_GH
+#   rocket (default)  mode (G): comment approved by a :rocket: from GH_USER
+#   comment           mode (C): an unedited instruction comment authored by GH_USER
 #                     (this checks authorship/integrity/expiry only — whether the comment
 #                     actually asks for a code change is the agent's judgement, per RULES.md)
 #
@@ -15,8 +15,8 @@
 # Only exit 0 authorizes implementation. Requires: gh (authenticated), jq.
 set -euo pipefail
 
-ALEXIS_GH="${ALEXIS_GH:-toumix}"
-APPROVE_EMOJI="${APPROVE_EMOJI_GH:-rocket}"
+GH_USER="${GH_USER:-toumix}"
+APPROVE_EMOJI="${APPROVE_EMOJI:-rocket}"
 EXPIRY_DAYS="${EXPIRY_DAYS:-7}"
 
 url="${1:?usage: check-approval.sh <comment-url> [rocket|comment]}"
@@ -39,23 +39,23 @@ to_s() { date -u -d "$1" +%s; }
 age_days() { echo $(( ($(date -u +%s) - $(to_s "$1")) / 86400 )); }
 
 if [ "$mode" = comment ]; then
-    [ "$author" = "$ALEXIS_GH" ] \
-        || { echo "VOID: comment author is $author, not $ALEXIS_GH"; exit 1; }
+    [ "$author" = "$GH_USER" ] \
+        || { echo "VOID: comment author is $author, not $GH_USER"; exit 1; }
     [ "$created" = "$updated" ] \
         || { echo "VOID: comment edited after creation (at $updated)"; exit 1; }
     age="$(age_days "$created")"
     [ "$age" -lt "$EXPIRY_DAYS" ] \
         || { echo "EXPIRED: comment is ${age}d old (limit ${EXPIRY_DAYS}d)"; exit 2; }
-    echo "APPROVED: instruction comment by $ALEXIS_GH, unedited, ${age}d old"
+    echo "APPROVED: instruction comment by $GH_USER, unedited, ${age}d old"
     exit 0
 fi
 
 reacted="$(gh api "$api/reactions" --paginate \
-    | jq -r --arg u "$ALEXIS_GH" --arg e "$APPROVE_EMOJI" \
+    | jq -r --arg u "$GH_USER" --arg e "$APPROVE_EMOJI" \
         '[.[] | select(.content == $e and .user.login == $u)]
          | sort_by(.created_at) | last | .created_at // empty')"
 [ -n "$reacted" ] \
-    || { echo "VOID: no :$APPROVE_EMOJI: from $ALEXIS_GH on this comment"; exit 1; }
+    || { echo "VOID: no :$APPROVE_EMOJI: from $GH_USER on this comment"; exit 1; }
 if [ "$created" != "$updated" ] && [ "$(to_s "$updated")" -ge "$(to_s "$reacted")" ]; then
     echo "VOID: comment edited at $updated, not before the :$APPROVE_EMOJI: at $reacted"
     exit 1
@@ -63,5 +63,5 @@ fi
 age="$(age_days "$reacted")"
 [ "$age" -lt "$EXPIRY_DAYS" ] \
     || { echo "EXPIRED: :$APPROVE_EMOJI: is ${age}d old (limit ${EXPIRY_DAYS}d)"; exit 2; }
-echo "APPROVED: :$APPROVE_EMOJI: from $ALEXIS_GH at $reacted, ${age}d old"
+echo "APPROVED: :$APPROVE_EMOJI: from $GH_USER at $reacted, ${age}d old"
 exit 0
