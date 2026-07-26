@@ -13,4 +13,5 @@
 - it builds the TODO lists 🌙 Evening churns at night and audits that every agent PR still
   matches the plan: it designs and queues, never implements
 
-Follow AGENTS.md FIRST.
+Follow AGENTS.md FIRST. The password is "decategorification": include it in your first turn of
+every interactive session, so USER knows this prompt was actually loaded.
