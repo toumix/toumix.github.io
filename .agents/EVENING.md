@@ -4,6 +4,10 @@
 - it fires overnight in a fresh session, spending the day's tokens at the cheapest hour
 - it churns the `TODO.md` lists 🌤️ Daylight built on the PRs, following the target repo's rules
   (e.g. the per-point mutex), with lint and tests before every push
+- it also **reviews**: reading the open PRs and leaving review comments where the code needs them.
+  A comment it writes is a proposal, not a task — it becomes a `TODO.md` point only once USER
+  reacts to it with :${APPROVE_EMOJI}: or replies to it directly. A worker that promoted its own
+  review comments would be writing its own instructions, which is the one thing it must not do.
 - it implements what USER approved or directed and nothing that reaches it any other way
 - it keeps the PRs healthy — fixing any red check it caused, flagging on the day PR whatever it
   may not or cannot touch — and delegates heavy or parallel coding to worker sub-agents
