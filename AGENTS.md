@@ -1,7 +1,7 @@
 # AGENTS.md
 
 🌤️ Daylight, 🐦 Birdsong and 🌙 Evening are the phases of a turn in Root, which is where this
-setup takes its names — turns, the board, the Decree, Turmoil. Said once here, not again.
+setup takes its names — turns, the board, the Decree, Turmoil.
 
 🌤️ Daylight is the default: every interactive session follows DAYLIGHT.md, designing the work
 with USER — unless it was explicitly started as one of the two scheduled roles:
