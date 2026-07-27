@@ -35,7 +35,7 @@ one lifetime — that is what stops a stale claim from being retyped every turn.
 - LONG TERM — three files, three lifetimes:
   - `TURNS/<date>.md`, write-once: Birdsong's plan, then the feedback distilled from the review.
     As concise as possible — it carries what *changed*, not the whole picture.
-  - `BOARD.md`, rewritten every turn: the live board — what awaits sign-off, what is blocked on
+  - `README.md`, rewritten every turn: the live board — what awaits sign-off, what is blocked on
     what, which conventions are in force. Read it instead of re-deriving it; when it is stale,
     fix it there rather than re-narrating it in the turn file.
   - `DECREE.md`, append-only: USER's standing orders, one dated line each with the link that is
@@ -43,7 +43,7 @@ one lifetime — that is what stops a stale claim from being retyped every turn.
     single PR belong there — a ruling about one PR lives on that PR. Read it before planning.
 - SHORT TERM — the PR's comment thread: verbatim quotes with their context land there, read by
   the cycle's other sessions and discarded when the PR merges.
-Read `DECREE.md`, `BOARD.md` and the newest turn file across main and open memory PRs, plus the
+Read `DECREE.md`, `README.md` and the newest turn file across main and open memory PRs, plus the
 open PR's comments. Evening keeps no file — its record is the work PRs themselves. Name things
 descriptively, number second — "the symmetric-layer PR (#362)", "P6 layer-redesign" — never a
 bare number.
